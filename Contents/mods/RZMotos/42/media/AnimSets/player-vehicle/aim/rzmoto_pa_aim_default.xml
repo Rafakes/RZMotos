@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>rzmoto_pa_aim_default</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_AnimName>RZMoto_PA_Stop</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_SpeedScale>IdleSpeed</m_SpeedScale>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="6ce707f2-2890-5691-8182-4665f7dd0ec1">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>PA</m_Value>
+	</m_Conditions>
+</animNode>

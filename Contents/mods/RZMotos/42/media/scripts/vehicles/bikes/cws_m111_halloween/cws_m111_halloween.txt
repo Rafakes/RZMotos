@@ -1,0 +1,662 @@
+/* CWS M111 with sidecar; original model MIT Krakow, CC BY-NC-SA 4.0; CREDITS.md. */
+module Base
+{
+    vehicle RZMoto_CWSM111_Halloween
+    {
+        part RZMotoConfig
+        {
+            category = nodisplay,
+
+            table RZMotoConfig
+            {
+                profile = CW,
+                passengerProfile = CS,
+                crashSpeedDrop = 25,
+                motionDeadzone = 1,
+                hideHeldItems = 1,
+                mountWithInteract = 1,
+                riderDepth = 1,
+                exitAnchor = outside,
+                bagChance = 0,
+            }
+        }
+
+        mechanicType = 3,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+
+        model
+        {
+            file = RZ_CWH_Body,
+            scale = 0.8000,
+            
+            offset = 0.4000 -0.3750 0.1000,
+        }
+        textureShadow = Vehicles/RZMoto_CWSM111_shadow,
+
+        skin { texture = Vehicles/RZMoto_CWSM111_Halloween, }
+
+        sound
+        {
+            horn = VehicleHorn,
+        }
+
+        engineForce = 2100,
+        maxSpeed = 80f,
+        maxSpeedReverse = 6f,
+        offRoadEfficiency = 1.4,
+        extents = 2.1000 1.0000 2.7500,
+        mass = 320,
+        physicsChassisShape = 0.9000 1.0000 2.7500,
+        centerOfMassOffset = -0.1500 0.1200 0.1000,
+        shadowExtents = 2.5 5.0,
+        shadowOffset = -0.115454531 0.034485769,
+        engineLoudness = 80,
+        engineQuality = 80,
+        brakingForce = 10,
+        stoppingMovementForce = 1.0f,
+        
+        rollInfluence = 0.0f,
+        steeringIncrement = 0.01,
+        steeringClamp = 0.05,
+        suspensionStiffness = 40,
+        suspensionCompression = 0,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 20,
+        suspensionRestLength = 0.2f,
+        wheelFriction = 5.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.950000000 0.345750000 0.818750000,
+            radius = 0.421f,
+            width = 0.5f,
+        }
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.150000000 0.345750000 0.818750000,
+            radius = 0.421f,
+            width = 0.5f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.150000000 0.345750000 -1.018750000,
+            radius = 0.421f,
+            width = 0.5f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.950000000 0.345750000 -1.018750000,
+            radius = 0.421f,
+            width = 0.5f,
+        }
+
+        area Engine
+        {
+            xywh = -0.370000000 0.320000000 0.450000000 0.450000000,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 1.170000000 -0.120000000 0.800000000 0.800000000,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -1.450000000 -0.034544410 0.800000000 0.800000000,
+        }
+
+        area GasTank
+        {
+            xywh = 1.170000000 0.320000000 0.450000000 0.450000000,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.500000000 -1.330000000 0.450000000 0.450000000,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.400000000 1.530000000 0.450000000 0.450000000,
+        }
+
+        area TireRearRight
+        {
+            xywh = 0.300000000 -1.330000000 0.450000000 0.450000000,
+        }
+
+        template = GasTank,
+
+        part GasTank
+        {
+            specificItem = false,
+            itemType = Base.RZ_CW_GasTank,
+            category = gastank,
+
+            model RZ_CW_GasTank_Model
+            {
+                file = RZ_CWH_GasTank,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        template = Engine,
+
+        part Engine
+        {
+            category = engine,
+        }
+
+        template = Battery,
+
+        part Battery
+        {
+            category = engine,
+            area = GasTank,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            model StreetMuffler { file = RZ_CWH_Muffler, }
+            category = engine,
+            area = TireRearLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        template = Seat/part/SeatFrontRight,
+        part SeatFrontRight
+        {
+            category = seat,
+            specificItem = true,
+            itemType = Base.NormalCarSeat,
+            container { test = RZMoto.ContainerAccess.None, }
+        }
+
+        template = Seat/part/SeatFrontLeft,
+
+        part SeatFrontLeft
+        {
+            category = seat,
+            specificItem = false,
+            itemType = Base.RZ_CW_Seat,
+
+            model RZ_CW_Seat_Model
+            {
+                file = RZ_CWH_Seat,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            container
+            {
+                test = RZMoto.ContainerAccess.None,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part FenderFront
+        {
+            category = bodywork,
+            mechanicRequireKey = true,
+            specificItem = false,
+            itemType = Base.RZ_CW_FenderFront,
+            area = TireFrontLeft,
+
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        part FenderRear
+        {
+            category = bodywork,
+            mechanicRequireKey = true,
+            specificItem = false,
+            itemType = Base.RZ_CW_FenderRear,
+            area = TireRearLeft,
+
+            model RZ_CW_FenderRear_Model
+            {
+                file = RZ_CWH_FenderRear,
+            }
+
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        template = Brake/part/BrakeFrontLeft,
+        template = Brake/part/BrakeRearLeft,
+
+        part BrakeFrontLeft
+        {
+            area = TireFrontLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionFrontLeft,
+                requireUninstalled = RZMotoTireFront,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireFront,
+            }
+        }
+
+        part BrakeRearLeft
+        {
+            area = TireRearLeft,
+
+            model RZ_CW_BrakeRear_Model
+            {
+                file = RZ_CWH_BrakeRear,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionRearLeft,
+                requireUninstalled = RZMotoTireRear,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireRear,
+            }
+        }
+
+        template = Headlight/part/HeadlightLeft,
+
+        part HeadlightLeft
+        {
+            area = TireFrontLeft,
+            table headlight { xOffset = 0.0, yOffset = 0.568988228, distance = 36, intensity = 0.75, }
+            lua { init = RZMoto.Init.CenteredLight, }
+        }
+
+        template = Headlight/part/HeadlightRearLeft,
+
+        part HeadlightRearLeft
+        {
+            area = TireRearLeft,
+            table headlight { xOffset = 0.0, yOffset = 1.172444916, distance = 3, intensity = 0.2, }
+            lua { init = RZMoto.Init.CenteredLight, }
+        }
+
+        template = Suspension,
+
+        part SuspensionFrontLeft
+        {
+            area = TireFrontLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireFront,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = BrakeFrontLeft,
+            }
+        }
+
+        part SuspensionFrontRight
+        {
+            category = nodisplay,
+        }
+
+        part SuspensionRearLeft
+        {
+            area = TireRearLeft,
+
+            model RZ_CW_RearSuspension_Model
+            {
+                file = RZ_CWH_RearSuspension,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireRear,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = BrakeRearLeft,
+            }
+        }
+
+        part SuspensionRearRight
+        {
+            category = nodisplay,
+            area = TireRearLeft,
+        }
+
+        template! = RZMotoWheels,
+
+        part RZMotoTireFront
+        {
+            specificItem = false,
+            itemType = Base.RZ_CW_TireOld;Base.RZ_CW_TireNormal;Base.RZ_CW_TireModern,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionFrontLeft,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part RZMotoTireRear
+        {
+            specificItem = false,
+            itemType = Base.RZ_CW_TireOld;Base.RZ_CW_TireNormal;Base.RZ_CW_TireModern,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionRearLeft,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part RZMotoVisual
+        {
+            category = nodisplay,
+            model WheelSidecar { file = RZ_CWH_WheelSidecar, offset = -1.353124857 0.421336323 -0.411524355, scale = 1.0, }
+            model Sidecar { file = RZ_CWH_Sidecar, }
+            model SidecarFender { file = RZ_CWH_SidecarFender, }
+            model Steering { file = RZ_CWH_Steering, offset = -0.002646319 1.135193944 0.408832163, scale = 1.0, }
+            model WheelFront { file = RZ_CWH_WheelFront, offset = -0.000000000 0.429254591 0.918749273, scale = 1.0, }
+            model Fork { file = RZ_CWH_Fork, offset = -0.002646319 1.135193944 0.408832163, scale = 1.0, }
+            model BrakeFront { file = RZ_CWH_BrakeFront, offset = -0.002646319 1.135193944 0.408832163, scale = 1.0, }
+            model FenderFront { file = RZ_CWH_FenderFront, offset = -0.002646319 1.135193944 0.408832163, scale = 1.0, }
+            model Headlight { file = RZ_CWH_Headlight, offset = -0.002646319 1.135193944 0.408832163, scale = 1.0, }
+            model WheelRear { file = RZ_CWH_WheelRear, offset = -0.000000000 0.426803172 -0.918749273, scale = 1.0, }
+        }
+
+
+        area CWSidecarWheel { xywh = -0.950000000 -0.400000000 0.800000000 1.000000000, }
+        area CWSpareWheel { xywh = -0.400000000 -1.350000000 1.300000000 0.700000000, }
+        part RZMotoTireSidecar {
+            area = CWSidecarWheel, wheel = RearRight, category = tire,
+            specificItem = false, itemType = Base.RZ_CW_TireOld;Base.RZ_CW_TireNormal;Base.RZ_CW_TireModern,
+            durability = 2,
+            container { capacity = 35, test = Vehicles.ContainerAccess.Tire, contentType = Air, }
+            table install { time = 500, skills = Mechanics:1, recipes = Basic Mechanics, test = Vehicles.InstallTest.Default, complete = RZMoto.InstallComplete.TireRear, }
+            table uninstall { time = 500, skills = Mechanics:1, recipes = Basic Mechanics, test = Vehicles.UninstallTest.Default, complete = RZMoto.UninstallComplete.TireRear, }
+            lua { create = Vehicles.Create.Tire, init = RZMoto.Init.Tires, checkOperate = Vehicles.CheckOperate.Tire, update = RZMoto.Update.TireRear, }
+        }
+        part CWSpareWheel {
+            area = CWSpareWheel, category = bodywork, specificItem = false,
+            itemType = Base.RZ_CW_TireOld;Base.RZ_CW_TireNormal;Base.RZ_CW_TireModern,
+            model SpareWheel { file = RZ_CWH_SpareWheel, }
+            table install { time = 250, skills = Mechanics:1, recipes = Basic Mechanics, test = Vehicles.InstallTest.Default, complete = Vehicles.InstallComplete.Default, }
+            table uninstall { time = 250, skills = Mechanics:1, recipes = Basic Mechanics, test = Vehicles.UninstallTest.Default, complete = Vehicles.UninstallComplete.Default, }
+            lua { create = Vehicles.Create.Default, }
+        }
+        part SidecarBody { category = nodisplay, }
+
+        passenger FrontLeft
+        {
+            door = DoorFrontLeft,
+            area = SeatFrontLeft,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.000000000 0.914643860 -0.350000000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.770000000 0.000000000 -0.350000000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            anim enter
+            {
+                anim = Climb_WindowA,
+                rate = 0.33,
+            }
+
+            anim idle
+            {
+                anim = Idle,
+                rate = 1.0,
+            }
+
+            anim exit
+            {
+                anim = Climb_WindowB,
+                rate = 0.23,
+            }
+
+            anim openDoor
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.3,
+            }
+
+            anim closeDoor
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+            }
+        }
+
+        passenger FrontRight
+        {
+            door = DoorFrontRight,
+            area = SeatFrontRight,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = -0.761450380 0.895855278 -0.134544410,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -1.850000000 0.000000000 -0.134544410,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            anim enter
+            {
+                anim = Climb_WindowA,
+                rate = 0.33,
+            }
+
+            anim idle
+            {
+                anim = Idle,
+                rate = 1.0,
+            }
+
+            anim exit
+            {
+                anim = Climb_WindowB,
+                rate = 0.23,
+            }
+
+            anim openDoor
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.3,
+            }
+
+            anim closeDoor
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+            }
+        }
+
+        template = RZMotoDoors,
+
+        template = Radio,
+        extentsOffset = -0.1500 0.1000,
+        useChassisPhysicsCollision = false,
+        physics box { extents = 0.9000 0.8500 2.7500, offset = 0.4000 0.4500 0.1000, }
+        physics box { extents = 0.9000 0.8000 2.5500, offset = -0.3500 0.5500 0.0500, }
+
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>rzmoto_hd_aim_down</m_Name>
+	<m_AnimName>RZMoto_HD_Stop</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_SpeedScale>IdleSpeed</m_SpeedScale>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="7d3cdd45-abff-43c4-9557-f302b7eb7a40">
+		<m_Name>bAimAtFloor</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="447823d2-5cb8-5bd3-b69a-29516573bc87">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>HD</m_Value>
+	</m_Conditions>
+</animNode>

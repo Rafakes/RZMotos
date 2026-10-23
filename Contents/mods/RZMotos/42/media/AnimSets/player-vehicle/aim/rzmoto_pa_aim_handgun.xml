@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_pa_aim_default.xml">
+	<m_Name>rzmoto_pa_aim_handgun</m_Name>
+	<m_Conditions x_name="b11facfa-fd8a-4c5d-bc71-e4c1f2d6c912">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5d3b0700-01bd-5b2e-8218-1f239f01735b">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>PA</m_Value>
+	</m_Conditions>
+</animNode>

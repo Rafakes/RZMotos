@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>rzmoto_mt_ride</m_Name>
+	<m_AnimName>RZMoto_MT_Ride</m_AnimName>
+	<m_BlendTime>0.15</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Scalar>RZSteerX</m_Scalar>
+	<m_Scalar2>RZSteerY</m_Scalar2>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>RZMoto_MT_Ride_SteerL</m_AnimName>
+		<m_XPos>1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>RZMoto_MT_Ride_SteerR</m_AnimName>
+		<m_XPos>-1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>RZMoto_MT_Ride</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>2</node2>
+		<node3>3</node3>
+	</m_2DBlendTri>
+	<m_Conditions x_name="2bbc56a3-1f72-590a-8e7b-18d257edf7b2">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>MT</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="25b1a5e9-6edd-5eb1-a7fb-67a7572a8420">
+		<m_Name>RZMotoMotion</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>ride</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>rzmoto_mt_stop</m_Target>
+		<m_AnimName>RZMoto_MT_RideToStop</m_AnimName>
+		<m_blendInTime>0.10</m_blendInTime>
+		<m_blendOutTime>0.10</m_blendOutTime>
+		<m_speedScale>1.00</m_speedScale>
+	</m_Transitions>
+</animNode>

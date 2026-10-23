@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_Eat.xml">
+	<m_Name>RZMoto_EatFromPlate</m_Name>
+	<m_AnimName>Bob_IdleEatingFromPlate</m_AnimName>
+	<m_Conditions x_name="ed5111ca-c3bd-40bc-b8c4-ab0df255a660">
+		<m_Name>FoodType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>plate</m_Value>
+	</m_Conditions>
+</animNode>

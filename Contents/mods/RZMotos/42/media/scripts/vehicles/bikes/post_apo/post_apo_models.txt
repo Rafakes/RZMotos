@@ -1,0 +1,165 @@
+module Base
+{
+    model RZ_PA_WheelFront
+    {
+        mesh = RZMoto/PostApo|post_WheelFront,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_DiscFront
+    {
+        mesh = RZMoto/PostApo|post_DiscFront,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_WheelRear
+    {
+        mesh = RZMoto/PostApo|post_WheelRear,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_BrakeRear
+    {
+        mesh = RZMoto/PostApo|post_BrakeRear,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_DiscRear
+    {
+        mesh = RZMoto/PostApo|post_DiscRear,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Body
+    {
+        mesh = RZMoto/PostApo|post_Body,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_RearSuspension
+    {
+        mesh = RZMoto/PostApo|post_RearSuspension,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_FenderRear
+    {
+        mesh = RZMoto/PostApo|post_FenderRear,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_GasTank
+    {
+        mesh = RZMoto/PostApo|post_GasTank,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Seat
+    {
+        mesh = RZMoto/PostApo|post_Seat,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_FenderFront
+    {
+        mesh = RZMoto/PostApo|post_FenderFront,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Muffler
+    {
+        mesh = RZMoto/PostApo|post_Muffler,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Cargo
+    {
+        mesh = RZMoto/PostApo|post_Cargo,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Skull
+    {
+        mesh = RZMoto/PostApo|post_Skull,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Fork
+    {
+        mesh = RZMoto/PostApo|post_Fork,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Headlight
+    {
+        mesh = RZMoto/PostApo|post_Headlight,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_Steering
+    {
+        mesh = RZMoto/PostApo|post_Steering,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_BrakeFront
+    {
+        mesh = RZMoto/PostApo|post_BrakeFront,
+        texture = Vehicles/RZMoto_PostApo,
+        shader = vehicle_noreflect,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_Seat
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_Seat,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_GasTank
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_GasTank,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_FenderFront
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_FenderFront,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_FenderRear
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_FenderRear,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_Tire
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_Tire,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+    model RZ_PA_WI_Cargo
+    {
+        mesh = RZMoto/PostApo_Items|post_WI_Cargo,
+        texture = Vehicles/RZMoto_PostApo,
+        scale = 0.130000,
+    }
+}

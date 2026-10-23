@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_LoadLeverAction.xml">
+	<m_Name>RZMoto_RackLeverAction</m_Name>
+	<m_AnimName>Bob_Reload_Lever_Rack</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_Conditions x_name="46168fbe-83f4-4e2c-ab9f-0c1993fab2d5">
+		<m_Name>isRacking</m_Name>
+	</m_Conditions>
+	<m_Events x_name="74907715-f03a-4c3f-aa1d-2dccc0fdf821">
+		<m_EventName>rackingFinished</m_EventName>
+	</m_Events>
+	<m_Events x_name="58442760-68c1-4f74-8732-40ff91886cec">
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>rack</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="fa8db9bc-4fd5-4343-885e-c59fca45faf5">
+		<m_EventName>rackBullet</m_EventName>
+		<m_ParameterValue />
+	</m_Events>
+</animNode>

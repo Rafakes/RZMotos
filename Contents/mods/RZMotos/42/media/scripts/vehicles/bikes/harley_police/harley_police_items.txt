@@ -1,0 +1,329 @@
+/*
+ * Electra Glide Police - itens (pecas) e receitas
+ * Pecas mecanicas "universais" (freio, suspensao, lampada, escapamento, bateria) usam itens vanilla.
+ */
+module Base
+{
+    /* ----------------------------- containers ----------------------------- */
+    item RZ_HP_TopBox
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 6.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_TopBox,
+        MaxCapacity = 40,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_TopBox,
+    }
+
+    item RZ_HP_SideBox
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 4.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_SideBox,
+        MaxCapacity = 28,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_SideBox,
+    }
+
+    /* ----------------------------- carroceria ----------------------------- */
+    item RZ_HP_Seat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 4.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_Seat,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_Seat,
+    }
+
+    item RZ_HP_GasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 8.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_GasTank,
+        MaxCapacity = 16,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_GasTank,
+    }
+
+    item RZ_HP_Windshield
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 2.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_Windshield,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_Windshield,
+    }
+
+    item RZ_HP_FenderFront
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_FenderFront,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_FenderFront,
+    }
+
+    item RZ_HP_FenderRear
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_FenderRear,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_FenderRear,
+    }
+
+    /* ----------------------------- pneus ----------------------------- */
+    item RZ_HP_TireOld
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 9.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_Tire,
+    }
+
+    item RZ_HP_TireNormal
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_Tire,
+    }
+
+    item RZ_HP_TireModern
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 11.0,
+        ItemType = base:normal,
+        Icon = RZ_HP_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HP_WI_Tire,
+    }
+
+    /* ----------------------------- receitas ----------------------------- */
+    craftRecipe Make_RZ_HP_TopBox
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 10 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 3 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 4 [Base.Screws],
+            item 2 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_TopBox,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_SideBox
+    {
+        time = 750,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 3 [Base.Screws],
+            item 1 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_SideBox,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_Windshield
+    {
+        time = 300,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        AutoLearnAll = Mechanics:4,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.Windshield3],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_Windshield,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_TireNormal,
+        }
+    }
+}

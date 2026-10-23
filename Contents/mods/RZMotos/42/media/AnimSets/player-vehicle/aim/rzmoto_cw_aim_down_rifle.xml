@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_cw_aim_down.xml">
+	<m_Name>rzmoto_cw_aim_down_rifle</m_Name>
+	<m_Conditions x_name="04377e99-49f3-42b2-a2ac-fedd2d6e838d">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="300b30ec-86a2-5599-8f3c-26de9c374b76">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>CW</m_Value>
+	</m_Conditions>
+</animNode>

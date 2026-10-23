@@ -1,0 +1,26 @@
+/*
+ * RZ Motos - revista de manutencao.
+ *
+ * Ensina as 102 receitas de pecas do mod. As receitas nascem trancadas
+ * (needToBeLearn = true) e tambem se aprendem sozinhas 3 niveis acima
+ * da habilidade exigida (AutoLearnAll), igual as revistas de receita da B42.
+ *
+ * Gerado por design/crafting/generate.py - nao editar a mao.
+ */
+module Base
+{
+    item RZ_MotoMag
+    {
+        DisplayCategory = RecipeResource,
+        ItemType = base:literature,
+        Weight = 0.6,
+        Icon = RZ_MotoMag,
+        BoredomChange = -20,
+        StressChange = -15,
+        LearnedRecipes = Make_RZ_AKT_FenderFront;Make_RZ_AKT_FenderRear;Make_RZ_AKT_GasTank;Make_RZ_AKT_Seat;Make_RZ_AKT_SideBox;Make_RZ_AKT_TireModern;Make_RZ_AKT_TireNormal;Make_RZ_AKT_TireOld;Make_RZ_AKT_TopBox;Make_RZ_AKT_Windshield;Make_RZ_CF_FenderFront;Make_RZ_CF_FenderRear;Make_RZ_CF_GasTank;Make_RZ_CF_Seat;Make_RZ_CF_TireModern;Make_RZ_CF_TireNormal;Make_RZ_CF_TireOld;Make_RZ_CW_FenderFront;Make_RZ_CW_FenderRear;Make_RZ_CW_GasTank;Make_RZ_CW_Seat;Make_RZ_CW_TireModern;Make_RZ_CW_TireNormal;Make_RZ_CW_TireOld;Make_RZ_DS_Battery;Make_RZ_DS_CargoFront;Make_RZ_DS_CargoRear;Make_RZ_DS_FenderFront;Make_RZ_DS_FenderRear;Make_RZ_DS_Seat;Make_RZ_DS_TireModern;Make_RZ_DS_TireNormal;Make_RZ_DS_TireOld;Make_RZ_GR_FenderRear;Make_RZ_GR_GasTank;Make_RZ_GR_Seat;Make_RZ_GR_TireModern;Make_RZ_GR_TireNormal;Make_RZ_GR_TireOld;Make_RZ_HC_FenderFront;Make_RZ_HC_FenderRear;Make_RZ_HC_GasTank;Make_RZ_HC_Seat;Make_RZ_HC_TireModern;Make_RZ_HC_TireNormal;Make_RZ_HC_TireOld;Make_RZ_HD_FenderFront;Make_RZ_HD_FenderRear;Make_RZ_HD_GasTank;Make_RZ_HD_Seat;Make_RZ_HD_TireModern;Make_RZ_HD_TireNormal;Make_RZ_HD_TireOld;Make_RZ_HP_FenderFront;Make_RZ_HP_FenderRear;Make_RZ_HP_GasTank;Make_RZ_HP_Seat;Make_RZ_HP_SideBox;Make_RZ_HP_TireModern;Make_RZ_HP_TireNormal;Make_RZ_HP_TireOld;Make_RZ_HP_TopBox;Make_RZ_HP_Windshield;Make_RZ_HS_FenderFront;Make_RZ_HS_FenderRear;Make_RZ_HS_GasTank;Make_RZ_HS_Seat;Make_RZ_HS_TireModern;Make_RZ_HS_TireNormal;Make_RZ_HS_TireOld;Make_RZ_MT_CargoFront;Make_RZ_MT_CargoRear;Make_RZ_MT_FenderFront;Make_RZ_MT_FenderRear;Make_RZ_MT_GasTank;Make_RZ_MT_Seat;Make_RZ_MT_TireModern;Make_RZ_MT_TireNormal;Make_RZ_MT_TireOld;Make_RZ_OW_FenderFront;Make_RZ_OW_FenderRear;Make_RZ_OW_GasTank;Make_RZ_OW_Holster;Make_RZ_OW_Seat;Make_RZ_OW_TireModern;Make_RZ_OW_TireNormal;Make_RZ_OW_TireOld;Make_RZ_PA_Cargo;Make_RZ_PA_FenderFront;Make_RZ_PA_FenderRear;Make_RZ_PA_GasTank;Make_RZ_PA_Seat;Make_RZ_PA_TireModern;Make_RZ_PA_TireNormal;Make_RZ_PA_TireOld;Make_RZ_ST_FenderFront;Make_RZ_ST_FenderRear;Make_RZ_ST_GasTank;Make_RZ_ST_Seat;Make_RZ_ST_TireModern;Make_RZ_ST_TireNormal;Make_RZ_ST_TireOld,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+        Tags = base:magazine,
+        OnCreate = ItemCodeOnCreate.onCreateRecipeMagazine,
+    }
+}

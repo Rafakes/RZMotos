@@ -1,0 +1,21 @@
+module Base
+{
+    model RZ_HC_Body { mesh = RZMoto/HarleyCustom|hc_Body, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_Steering { mesh = RZMoto/HarleyCustom|hc_Steering, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_WheelFront { mesh = RZMoto/HarleyCustom|hc_WheelFront, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_WheelRear { mesh = RZMoto/HarleyCustom|hc_WheelRear, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_Fork { mesh = RZMoto/HarleyCustom|hc_Fork, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_Headlight { mesh = RZMoto/HarleyCustom|hc_Headlight, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_GasTank { mesh = RZMoto/HarleyCustom|hc_GasTank, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_Seat { mesh = RZMoto/HarleyCustom|hc_Seat, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_FenderFront { mesh = RZMoto/HarleyCustom|hc_FenderFront, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_FenderRear { mesh = RZMoto/HarleyCustom|hc_FenderRear, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_RearSuspension { mesh = RZMoto/HarleyCustom|hc_RearSuspension, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_Muffler { mesh = RZMoto/HarleyCustom|hc_Muffler, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_DiscRear { mesh = RZMoto/HarleyCustom|hc_DiscRear, texture = Vehicles/RZMoto_HarleyCustom, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HC_WI_Seat { mesh = RZMoto/HarleyCustom_Items|hc_WI_Seat, texture = Vehicles/RZMoto_HarleyCustom, scale = 0.1, }
+    model RZ_HC_WI_GasTank { mesh = RZMoto/HarleyCustom_Items|hc_WI_GasTank, texture = Vehicles/RZMoto_HarleyCustom, scale = 0.1, }
+    model RZ_HC_WI_FenderFront { mesh = RZMoto/HarleyCustom_Items|hc_WI_FenderFront, texture = Vehicles/RZMoto_HarleyCustom, scale = 0.1, }
+    model RZ_HC_WI_FenderRear { mesh = RZMoto/HarleyCustom_Items|hc_WI_FenderRear, texture = Vehicles/RZMoto_HarleyCustom, scale = 0.1, }
+    model RZ_HC_WI_Tire { mesh = RZMoto/HarleyCustom_Items|hc_WI_Tire, texture = Vehicles/RZMoto_HarleyCustom, scale = 0.1, }
+}

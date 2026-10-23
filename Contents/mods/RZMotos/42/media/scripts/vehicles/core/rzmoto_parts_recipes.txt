@@ -1,0 +1,1853 @@
+/* Custom motorcycle parts. Existing AKT/Police recipes remain in their item files. */
+module Base
+{
+    craftRecipe Make_RZ_AKT_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_AKT_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_AKT_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_AKT_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_CF_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CF_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_CW_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_CW_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_Battery
+    {
+        time = 600,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Electricity:3;Mechanics:2,
+        AutoLearnAll = Electricity:6;Mechanics:5,
+        category = Tuning,
+        xpAward = Electricity:15,
+        inputs
+        {
+            item 1 [Base.CarBattery3] mode:destroy flags[ItemCount;InheritCondition;InheritUses],
+            item 1 tags[base:screwdriver] mode:keep,
+            item 2 [Base.ElectricWire],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_Battery,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_CargoFront
+    {
+        time = 750,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 3 [Base.Screws],
+            item 1 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_CargoFront,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_CargoRear
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 10 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 3 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 4 [Base.Screws],
+            item 2 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_CargoRear,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_DS_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_DS_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_GR_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_GR_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_HC_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HC_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_HD_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HD_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_HP_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HP_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_HS_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_HS_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_CargoFront
+    {
+        time = 750,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 3 [Base.Screws],
+            item 1 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_CargoFront,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_CargoRear
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 10 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 3 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 4 [Base.Screws],
+            item 2 [Base.MetalPipe],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_CargoRear,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_MT_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_MT_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_Holster
+    {
+        time = 600,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        AutoLearnAll = Tailoring:6,
+        category = Tuning,
+        xpAward = Tailoring:20,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep,
+            item 1 tags[base:scissors] mode:keep,
+            item 6 [Base.LeatherStrips],
+            item 6 tags[base:thread],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_Holster,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_OW_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_OW_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_Cargo
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Tailoring:4,
+        AutoLearnAll = Tailoring:7,
+        category = Tuning,
+        xpAward = Tailoring:25,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep,
+            item 1 tags[base:scissors] mode:keep,
+            item 8 [Base.LeatherStrips],
+            item 8 tags[base:thread],
+            item 2 [Base.SmallSheetMetal],
+            item 4 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_Cargo,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_PA_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_PA_TireOld,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_FenderFront
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_FenderFront,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_FenderRear
+    {
+        time = 800,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        AutoLearnAll = MetalWelding:7,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 6 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_FenderRear,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_GasTank
+    {
+        time = 1000,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        AutoLearnAll = MetalWelding:8,
+        category = Tuning,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 8 [Base.BlowTorch] flags[Prop1],
+            item 1 tags[WeldingMask] mode:keep,
+            item 4 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_GasTank,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_Seat
+    {
+        time = 900,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalCarSeat3] flags[InheritCondition],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_Seat,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_TireModern
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.ModernTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_TireModern,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_TireNormal
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.NormalTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_TireNormal,
+        }
+    }
+
+    craftRecipe Make_RZ_ST_TireOld
+    {
+        time = 400,
+        timedAction = BuildLowNoTool,
+        Tags = InHandCraft,
+        needToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        AutoLearnAll = Mechanics:5,
+        category = Tuning,
+        inputs
+        {
+            item 1 [Base.OldTire3] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.RZ_ST_TireOld,
+        }
+    }
+
+}

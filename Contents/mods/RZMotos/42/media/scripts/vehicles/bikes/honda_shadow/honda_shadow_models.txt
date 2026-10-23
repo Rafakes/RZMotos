@@ -1,0 +1,24 @@
+module Base
+{
+    model RZ_HS_Body { mesh = RZMoto/HondaShadowRS|hs_Body, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_Steering { mesh = RZMoto/HondaShadowRS|hs_Steering, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_WheelFront { mesh = RZMoto/HondaShadowRS|hs_WheelFront, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_WheelRear { mesh = RZMoto/HondaShadowRS|hs_WheelRear, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_Fork { mesh = RZMoto/HondaShadowRS|hs_Fork, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_Headlight { mesh = RZMoto/HondaShadowRS|hs_Headlight, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_GasTank { mesh = RZMoto/HondaShadowRS|hs_GasTank, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_Seat { mesh = RZMoto/HondaShadowRS|hs_Seat, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_FenderFront { mesh = RZMoto/HondaShadowRS|hs_FenderFront, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_FenderRear { mesh = RZMoto/HondaShadowRS|hs_FenderRear, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_RearSuspension { mesh = RZMoto/HondaShadowRS|hs_RearSuspension, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_Muffler { mesh = RZMoto/HondaShadowRS|hs_Muffler, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_DiscFront { mesh = RZMoto/HondaShadowRS|hs_DiscFront, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_DiscRear { mesh = RZMoto/HondaShadowRS|hs_DiscRear, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_BrakeFront { mesh = RZMoto/HondaShadowRS|hs_BrakeFront, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_BrakeRear { mesh = RZMoto/HondaShadowRS|hs_BrakeRear, texture = Vehicles/RZMoto_HondaShadowRS, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HS_WI_Seat { mesh = RZMoto/HondaShadowRS_Items|hs_WI_Seat, texture = Vehicles/RZMoto_HondaShadowRS, scale = 0.1, }
+    model RZ_HS_WI_GasTank { mesh = RZMoto/HondaShadowRS_Items|hs_WI_GasTank, texture = Vehicles/RZMoto_HondaShadowRS, scale = 0.1, }
+    model RZ_HS_WI_FenderFront { mesh = RZMoto/HondaShadowRS_Items|hs_WI_FenderFront, texture = Vehicles/RZMoto_HondaShadowRS, scale = 0.1, }
+    model RZ_HS_WI_FenderRear { mesh = RZMoto/HondaShadowRS_Items|hs_WI_FenderRear, texture = Vehicles/RZMoto_HondaShadowRS, scale = 0.1, }
+    model RZ_HS_WI_Tire { mesh = RZMoto/HondaShadowRS_Items|hs_WI_Tire, texture = Vehicles/RZMoto_HondaShadowRS, scale = 0.1, }
+}

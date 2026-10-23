@@ -1,0 +1,24 @@
+module Base
+{
+    model RZ_CF_Body { mesh = RZMoto/HondaCRF450|crf_Body, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_Steering { mesh = RZMoto/HondaCRF450|crf_Steering, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_Fork { mesh = RZMoto/HondaCRF450|crf_Fork, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_Muffler { mesh = RZMoto/HondaCRF450|crf_Muffler, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_RearSuspension { mesh = RZMoto/HondaCRF450|crf_RearSuspension, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_BrakeFront { mesh = RZMoto/HondaCRF450|crf_BrakeFront, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_BrakeRear { mesh = RZMoto/HondaCRF450|crf_BrakeRear, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_GasTank { mesh = RZMoto/HondaCRF450|crf_GasTank, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_WheelFront { mesh = RZMoto/HondaCRF450|crf_WheelFront, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_Seat { mesh = RZMoto/HondaCRF450|crf_Seat, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_FenderRear { mesh = RZMoto/HondaCRF450|crf_FenderRear, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_FenderFront { mesh = RZMoto/HondaCRF450|crf_FenderFront, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_PlateFront { mesh = RZMoto/HondaCRF450|crf_PlateFront, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_DiscFront { mesh = RZMoto/HondaCRF450|crf_DiscFront, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_DiscRear { mesh = RZMoto/HondaCRF450|crf_DiscRear, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_WheelRear { mesh = RZMoto/HondaCRF450|crf_WheelRear, texture = Vehicles/RZMoto_HondaCRF450, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CF_WI_Seat { mesh = RZMoto/HondaCRF450_Items|crf_WI_Seat, texture = Vehicles/RZMoto_HondaCRF450, scale = 0.1, }
+    model RZ_CF_WI_GasTank { mesh = RZMoto/HondaCRF450_Items|crf_WI_GasTank, texture = Vehicles/RZMoto_HondaCRF450, scale = 0.1, }
+    model RZ_CF_WI_FenderFront { mesh = RZMoto/HondaCRF450_Items|crf_WI_FenderFront, texture = Vehicles/RZMoto_HondaCRF450, scale = 0.1, }
+    model RZ_CF_WI_FenderRear { mesh = RZMoto/HondaCRF450_Items|crf_WI_FenderRear, texture = Vehicles/RZMoto_HondaCRF450, scale = 0.1, }
+    model RZ_CF_WI_Tire { mesh = RZMoto/HondaCRF450_Items|crf_WI_Tire, texture = Vehicles/RZMoto_HondaCRF450, scale = 0.1, }
+}

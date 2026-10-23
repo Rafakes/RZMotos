@@ -1,0 +1,24 @@
+module Base
+{
+    model RZ_HD_WheelFront { mesh = RZMoto/HarleyDavidson|hd_WheelFront, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_WheelRear { mesh = RZMoto/HarleyDavidson|hd_WheelRear, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_DiscFront { mesh = RZMoto/HarleyDavidson|hd_DiscFront, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_DiscRear { mesh = RZMoto/HarleyDavidson|hd_DiscRear, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Fork { mesh = RZMoto/HarleyDavidson|hd_Fork, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_BrakeFront { mesh = RZMoto/HarleyDavidson|hd_BrakeFront, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_BrakeRear { mesh = RZMoto/HarleyDavidson|hd_BrakeRear, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Headlight { mesh = RZMoto/HarleyDavidson|hd_Headlight, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_GasTank { mesh = RZMoto/HarleyDavidson|hd_GasTank, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Seat { mesh = RZMoto/HarleyDavidson|hd_Seat, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_FenderFront { mesh = RZMoto/HarleyDavidson|hd_FenderFront, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_FenderRear { mesh = RZMoto/HarleyDavidson|hd_FenderRear, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_RearSuspension { mesh = RZMoto/HarleyDavidson|hd_RearSuspension, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Muffler { mesh = RZMoto/HarleyDavidson|hd_Muffler, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Steering { mesh = RZMoto/HarleyDavidson|hd_Steering, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_Body { mesh = RZMoto/HarleyDavidson|hd_Body, texture = Vehicles/RZMoto_HarleyDavidson, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HD_WI_Seat { mesh = RZMoto/HarleyDavidson_Items|hd_WI_Seat, texture = Vehicles/RZMoto_HarleyDavidson, scale = 0.1, }
+    model RZ_HD_WI_GasTank { mesh = RZMoto/HarleyDavidson_Items|hd_WI_GasTank, texture = Vehicles/RZMoto_HarleyDavidson, scale = 0.1, }
+    model RZ_HD_WI_FenderFront { mesh = RZMoto/HarleyDavidson_Items|hd_WI_FenderFront, texture = Vehicles/RZMoto_HarleyDavidson, scale = 0.1, }
+    model RZ_HD_WI_FenderRear { mesh = RZMoto/HarleyDavidson_Items|hd_WI_FenderRear, texture = Vehicles/RZMoto_HarleyDavidson, scale = 0.1, }
+    model RZ_HD_WI_Tire { mesh = RZMoto/HarleyDavidson_Items|hd_WI_Tire, texture = Vehicles/RZMoto_HarleyDavidson, scale = 0.1, }
+}

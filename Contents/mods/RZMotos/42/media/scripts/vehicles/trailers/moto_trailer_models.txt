@@ -1,0 +1,6 @@
+module Base
+{
+model RZ_TR_Body { mesh = RZMoto/MotoTrailer|tr_Body, texture = Vehicles/RZMoto_Trailer, shader = vehicle_noreflect, scale = 0.1, }
+model RZ_TR_WheelLeft { mesh = RZMoto/MotoTrailer|tr_WheelLeft, texture = Vehicles/RZMoto_Trailer, shader = rzmoto_cargo, scale = 0.1, }
+model RZ_TR_WheelRight { mesh = RZMoto/MotoTrailer|tr_WheelRight, texture = Vehicles/RZMoto_Trailer, shader = rzmoto_cargo, scale = 0.1, }
+}

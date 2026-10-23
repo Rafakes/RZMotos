@@ -1,0 +1,21 @@
+module Base
+{
+    model RZ_CWH_Body { mesh = RZMoto/CWSM111|cw_Body, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Sidecar { mesh = RZMoto/CWSM111|cw_Sidecar, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_GasTank { mesh = RZMoto/CWSM111|cw_GasTank, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Seat { mesh = RZMoto/CWSM111|cw_Seat, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Steering { mesh = RZMoto/CWSM111|cw_Steering, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_WheelFront { mesh = RZMoto/CWSM111|cw_WheelFront, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_WheelRear { mesh = RZMoto/CWSM111|cw_WheelRear, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_WheelSidecar { mesh = RZMoto/CWSM111|cw_WheelSidecar, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_SpareWheel { mesh = RZMoto/CWSM111|cw_SpareWheel, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Fork { mesh = RZMoto/CWSM111|cw_Fork, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_BrakeFront { mesh = RZMoto/CWSM111|cw_BrakeFront, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_BrakeRear { mesh = RZMoto/CWSM111|cw_BrakeRear, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Headlight { mesh = RZMoto/CWSM111|cw_Headlight, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_RearSuspension { mesh = RZMoto/CWSM111|cw_RearSuspension, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_Muffler { mesh = RZMoto/CWSM111|cw_Muffler, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_FenderFront { mesh = RZMoto/CWSM111|cw_FenderFront, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_FenderRear { mesh = RZMoto/CWSM111|cw_FenderRear, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CWH_SidecarFender { mesh = RZMoto/CWSM111|cw_SidecarFender, texture = Vehicles/RZMoto_CWSM111_Halloween, shader = vehicle_noreflect, scale = 0.1, }
+}

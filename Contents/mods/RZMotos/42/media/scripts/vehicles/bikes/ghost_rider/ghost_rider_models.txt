@@ -1,0 +1,20 @@
+module Base
+{
+ model RZ_GR_WheelFront { mesh = RZMoto/GhostRider|gr_WheelFront, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_WheelRear { mesh = RZMoto/GhostRider|gr_WheelRear, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_DiscRear { mesh = RZMoto/GhostRider|gr_DiscRear, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Fork { mesh = RZMoto/GhostRider|gr_Fork, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Headlight { mesh = RZMoto/GhostRider|gr_Headlight, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Steering { mesh = RZMoto/GhostRider|gr_Steering, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_GasTank { mesh = RZMoto/GhostRider|gr_GasTank, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Seat { mesh = RZMoto/GhostRider|gr_Seat, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_FenderRear { mesh = RZMoto/GhostRider|gr_FenderRear, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_RearSuspension { mesh = RZMoto/GhostRider|gr_RearSuspension, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Muffler { mesh = RZMoto/GhostRider|gr_Muffler, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_BrakeRear { mesh = RZMoto/GhostRider|gr_BrakeRear, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_Body { mesh = RZMoto/GhostRider|gr_Body, texture = Vehicles/RZMoto_GhostRider, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_GR_WI_Seat { mesh = RZMoto/GhostRider_Items|gr_WI_Seat, texture = Vehicles/RZMoto_GhostRider, scale = 0.1, }
+ model RZ_GR_WI_GasTank { mesh = RZMoto/GhostRider_Items|gr_WI_GasTank, texture = Vehicles/RZMoto_GhostRider, scale = 0.1, }
+ model RZ_GR_WI_FenderRear { mesh = RZMoto/GhostRider_Items|gr_WI_FenderRear, texture = Vehicles/RZMoto_GhostRider, scale = 0.1, }
+ model RZ_GR_WI_Tire { mesh = RZMoto/GhostRider_Items|gr_WI_Tire, texture = Vehicles/RZMoto_GhostRider, scale = 0.1, }
+}

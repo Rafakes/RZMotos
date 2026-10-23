@@ -1,0 +1,110 @@
+module Base
+{
+    
+    
+
+    
+
+    
+    item RZ_HS_Seat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 4.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_Seat,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_Seat,
+    }
+
+    item RZ_HS_GasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 8.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_GasTank,
+        MaxCapacity = 16,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_GasTank,
+    }
+
+    
+
+    item RZ_HS_FenderFront
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_FenderFront,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_FenderFront,
+    }
+
+    item RZ_HS_FenderRear
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_FenderRear,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_FenderRear,
+    }
+
+    
+    item RZ_HS_TireOld
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 9.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_Tire,
+    }
+
+    item RZ_HS_TireNormal
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_Tire,
+    }
+
+    item RZ_HS_TireModern
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 11.0,
+        ItemType = base:normal,
+        Icon = RZ_HS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_HS_WI_Tire,
+    }
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_ds_aim_down.xml">
+	<m_Name>rzmoto_ds_aim_down_rifle</m_Name>
+	<m_Conditions x_name="04377e99-49f3-42b2-a2ac-fedd2d6e838d">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="bc6b1f5d-0215-51ff-8ba6-0510e00acb65">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>DS</m_Value>
+	</m_Conditions>
+</animNode>

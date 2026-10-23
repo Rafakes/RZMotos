@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>rzmoto_pa_mount</m_Name>
+	<m_AnimName>RZMoto_PA_Mount</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_Conditions x_name="9bf07478-0f68-5ba4-b3d1-1ce2d3e3af1a">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>PA</m_Value>
+	</m_Conditions>
+	<m_Events x_name="9eb78124-70cc-4fed-9065-7230710e701e">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>EnterAnimationFinished=true</m_ParameterValue>
+	</m_Events>
+</animNode>

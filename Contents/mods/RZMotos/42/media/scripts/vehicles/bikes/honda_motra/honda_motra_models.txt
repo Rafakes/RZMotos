@@ -1,0 +1,26 @@
+module Base
+{
+    model RZ_MT_Body { mesh = RZMoto/HondaMotra|mt_Body, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_GasTank { mesh = RZMoto/HondaMotra|mt_GasTank, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_Steering { mesh = RZMoto/HondaMotra|mt_Steering, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_Seat { mesh = RZMoto/HondaMotra|mt_Seat, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_WheelFront { mesh = RZMoto/HondaMotra|mt_WheelFront, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_WheelRear { mesh = RZMoto/HondaMotra|mt_WheelRear, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_Fork { mesh = RZMoto/HondaMotra|mt_Fork, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_BrakeFront { mesh = RZMoto/HondaMotra|mt_BrakeFront, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_BrakeRear { mesh = RZMoto/HondaMotra|mt_BrakeRear, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_Headlight { mesh = RZMoto/HondaMotra|mt_Headlight, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_RearSuspension { mesh = RZMoto/HondaMotra|mt_RearSuspension, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_Muffler { mesh = RZMoto/HondaMotra|mt_Muffler, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_FenderFront { mesh = RZMoto/HondaMotra|mt_FenderFront, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_FenderRear { mesh = RZMoto/HondaMotra|mt_FenderRear, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_CargoFront { mesh = RZMoto/HondaMotra|mt_CargoFront, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_CargoRear { mesh = RZMoto/HondaMotra|mt_CargoRear, texture = Vehicles/RZMoto_HondaMotra, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_MT_WI_Seat { mesh = RZMoto/HondaMotra_Items|mt_WI_Seat, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_GasTank { mesh = RZMoto/HondaMotra_Items|mt_WI_GasTank, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_FenderFront { mesh = RZMoto/HondaMotra_Items|mt_WI_FenderFront, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_FenderRear { mesh = RZMoto/HondaMotra_Items|mt_WI_FenderRear, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_Tire { mesh = RZMoto/HondaMotra_Items|mt_WI_Tire, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_CargoFront { mesh = RZMoto/HondaMotra_Items|mt_WI_CargoFront, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+    model RZ_MT_WI_CargoRear { mesh = RZMoto/HondaMotra_Items|mt_WI_CargoRear, texture = Vehicles/RZMoto_HondaMotra, scale = 0.1, }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>rzmoto_ak_mount</m_Name>
+	<m_AnimName>RZMoto_AK_Mount</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_Conditions x_name="8a0515b7-7f3c-5031-a544-e1ee4fa01d6c">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>AK</m_Value>
+	</m_Conditions>
+	<m_Events x_name="9eb78124-70cc-4fed-9065-7230710e701e">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>EnterAnimationFinished=true</m_ParameterValue>
+	</m_Events>
+</animNode>

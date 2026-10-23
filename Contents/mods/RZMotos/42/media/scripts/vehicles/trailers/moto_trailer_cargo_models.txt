@@ -1,0 +1,1288 @@
+module Base
+{
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_0_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_1_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Blue, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_2_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Green, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_3_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Orange, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_4_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Yellow, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_5_RZ_AKT_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+     texture = Vehicles/RZMoto_AKTTT200_Shell_Purple, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_Body {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_DiscFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_DiscRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_FenderFront {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_FenderRear {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_GasTank {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_Handlebar {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_Headlight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_Seat {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_TopBox {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_WheelFront {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_WheelRear {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Premium_0_RZ_AKT_Premium_Windshield {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Shell_PremiumMatte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Body { mesh = RZMoto/CWSM111|cw_Body,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_BrakeFront { mesh = RZMoto/CWSM111|cw_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_BrakeRear { mesh = RZMoto/CWSM111|cw_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_FenderFront { mesh = RZMoto/CWSM111|cw_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_FenderRear { mesh = RZMoto/CWSM111|cw_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Fork { mesh = RZMoto/CWSM111|cw_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_GasTank { mesh = RZMoto/CWSM111|cw_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Headlight { mesh = RZMoto/CWSM111|cw_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Muffler { mesh = RZMoto/CWSM111|cw_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_RearSuspension { mesh = RZMoto/CWSM111|cw_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Seat { mesh = RZMoto/CWSM111|cw_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Sidecar { mesh = RZMoto/CWSM111|cw_Sidecar,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_SidecarFender { mesh = RZMoto/CWSM111|cw_SidecarFender,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_SpareWheel { mesh = RZMoto/CWSM111|cw_SpareWheel,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_Steering { mesh = RZMoto/CWSM111|cw_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_WheelFront { mesh = RZMoto/CWSM111|cw_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_WheelRear { mesh = RZMoto/CWSM111|cw_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_0_RZ_CW_WheelSidecar { mesh = RZMoto/CWSM111|cw_WheelSidecar,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Body { mesh = RZMoto/CWSM111|cw_Body,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_BrakeFront { mesh = RZMoto/CWSM111|cw_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_BrakeRear { mesh = RZMoto/CWSM111|cw_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_FenderFront { mesh = RZMoto/CWSM111|cw_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_FenderRear { mesh = RZMoto/CWSM111|cw_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Fork { mesh = RZMoto/CWSM111|cw_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_GasTank { mesh = RZMoto/CWSM111|cw_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Headlight { mesh = RZMoto/CWSM111|cw_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Muffler { mesh = RZMoto/CWSM111|cw_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_RearSuspension { mesh = RZMoto/CWSM111|cw_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Seat { mesh = RZMoto/CWSM111|cw_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Sidecar { mesh = RZMoto/CWSM111|cw_Sidecar,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_SidecarFender { mesh = RZMoto/CWSM111|cw_SidecarFender,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_SpareWheel { mesh = RZMoto/CWSM111|cw_SpareWheel,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_Steering { mesh = RZMoto/CWSM111|cw_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_WheelFront { mesh = RZMoto/CWSM111|cw_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_WheelRear { mesh = RZMoto/CWSM111|cw_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_CWSM111_Halloween_0_RZ_CWH_WheelSidecar { mesh = RZMoto/CWSM111|cw_WheelSidecar,   scale = 0.1,  texture = Vehicles/RZMoto_CWSM111_Halloween, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Body { mesh = RZMoto/DeliveryScooter|scooter_Body,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_BrakeFront { mesh = RZMoto/DeliveryScooter|scooter_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_BrakeRear { mesh = RZMoto/DeliveryScooter|scooter_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_CargoFront { mesh = RZMoto/DeliveryScooter|scooter_CargoFront,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_CargoRear { mesh = RZMoto/DeliveryScooter|scooter_CargoRear,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_FenderFront { mesh = RZMoto/DeliveryScooter|scooter_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_FenderRear { mesh = RZMoto/DeliveryScooter|scooter_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Fork { mesh = RZMoto/DeliveryScooter|scooter_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Headlight { mesh = RZMoto/DeliveryScooter|scooter_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Panel { mesh = RZMoto/DeliveryScooter|scooter_Panel,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_RearSuspension { mesh = RZMoto/DeliveryScooter|scooter_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Seat { mesh = RZMoto/DeliveryScooter|scooter_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_Steering { mesh = RZMoto/DeliveryScooter|scooter_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_WheelFront { mesh = RZMoto/DeliveryScooter|scooter_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_DeliveryScooter_0_RZ_DS_WheelRear { mesh = RZMoto/DeliveryScooter|scooter_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_DeliveryScooter, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Body { mesh = RZMoto/GhostRider|gr_Body,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_BrakeRear { mesh = RZMoto/GhostRider|gr_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_DiscRear { mesh = RZMoto/GhostRider|gr_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_FenderRear { mesh = RZMoto/GhostRider|gr_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Fork { mesh = RZMoto/GhostRider|gr_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_GasTank { mesh = RZMoto/GhostRider|gr_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Headlight { mesh = RZMoto/GhostRider|gr_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Muffler { mesh = RZMoto/GhostRider|gr_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_RearSuspension { mesh = RZMoto/GhostRider|gr_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Seat { mesh = RZMoto/GhostRider|gr_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_Steering { mesh = RZMoto/GhostRider|gr_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_WheelFront { mesh = RZMoto/GhostRider|gr_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_GhostRider_0_RZ_GR_WheelRear { mesh = RZMoto/GhostRider|gr_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_GhostRider, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Body { mesh = RZMoto/HarleyCustom|hc_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_DiscRear { mesh = RZMoto/HarleyCustom|hc_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_FenderFront { mesh = RZMoto/HarleyCustom|hc_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_FenderRear { mesh = RZMoto/HarleyCustom|hc_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Fork { mesh = RZMoto/HarleyCustom|hc_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_GasTank { mesh = RZMoto/HarleyCustom|hc_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Headlight { mesh = RZMoto/HarleyCustom|hc_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Muffler { mesh = RZMoto/HarleyCustom|hc_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_RearSuspension { mesh = RZMoto/HarleyCustom|hc_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Seat { mesh = RZMoto/HarleyCustom|hc_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_Steering { mesh = RZMoto/HarleyCustom|hc_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_WheelFront { mesh = RZMoto/HarleyCustom|hc_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyCustom_0_RZ_HC_WheelRear { mesh = RZMoto/HarleyCustom|hc_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyCustom, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Body { mesh = RZMoto/HarleyDavidson|hd_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_BrakeFront { mesh = RZMoto/HarleyDavidson|hd_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_BrakeRear { mesh = RZMoto/HarleyDavidson|hd_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_DiscFront { mesh = RZMoto/HarleyDavidson|hd_DiscFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_DiscRear { mesh = RZMoto/HarleyDavidson|hd_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_FenderFront { mesh = RZMoto/HarleyDavidson|hd_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_FenderRear { mesh = RZMoto/HarleyDavidson|hd_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Fork { mesh = RZMoto/HarleyDavidson|hd_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_GasTank { mesh = RZMoto/HarleyDavidson|hd_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Headlight { mesh = RZMoto/HarleyDavidson|hd_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Muffler { mesh = RZMoto/HarleyDavidson|hd_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_RearSuspension { mesh = RZMoto/HarleyDavidson|hd_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Seat { mesh = RZMoto/HarleyDavidson|hd_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_Steering { mesh = RZMoto/HarleyDavidson|hd_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_WheelFront { mesh = RZMoto/HarleyDavidson|hd_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyDavidson_0_RZ_HD_WheelRear { mesh = RZMoto/HarleyDavidson|hd_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyDavidson, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Body { mesh = RZMoto/HarleyPolice|harley_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_BrakeFront { mesh = RZMoto/HarleyPolice|harley_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_CargoLeft { mesh = RZMoto/HarleyPolice|harley_CargoLeft,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_CargoRight { mesh = RZMoto/HarleyPolice|harley_CargoRight,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_CargoTop { mesh = RZMoto/HarleyPolice|harley_CargoTop,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_DiscFront { mesh = RZMoto/HarleyPolice|harley_DiscFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_DiscRear { mesh = RZMoto/HarleyPolice|harley_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_FenderFront { mesh = RZMoto/HarleyPolice|harley_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_FenderRear { mesh = RZMoto/HarleyPolice|harley_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Fork { mesh = RZMoto/HarleyPolice|harley_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_GasTank { mesh = RZMoto/HarleyPolice|harley_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Headlight { mesh = RZMoto/HarleyPolice|harley_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_RearSuspension { mesh = RZMoto/HarleyPolice|harley_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Seat { mesh = RZMoto/HarleyPolice|harley_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Steering { mesh = RZMoto/HarleyPolice|harley_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_WheelFront { mesh = RZMoto/HarleyPolice|harley_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_WheelRear { mesh = RZMoto/HarleyPolice|harley_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HarleyPolice_0_RZ_HP_Windshield { mesh = RZMoto/HarleyPolice|harley_Windshield,   scale = 0.1,  texture = Vehicles/RZMoto_HarleyPolice, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_Body { mesh = RZMoto/HondaCRF450|crf_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_BrakeFront { mesh = RZMoto/HondaCRF450|crf_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_BrakeRear { mesh = RZMoto/HondaCRF450|crf_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_DiscFront { mesh = RZMoto/HondaCRF450|crf_DiscFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_DiscRear { mesh = RZMoto/HondaCRF450|crf_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_FenderFront { mesh = RZMoto/HondaCRF450|crf_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_FenderRear { mesh = RZMoto/HondaCRF450|crf_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_Fork { mesh = RZMoto/HondaCRF450|crf_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_GasTank { mesh = RZMoto/HondaCRF450|crf_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_Muffler { mesh = RZMoto/HondaCRF450|crf_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_PlateFront { mesh = RZMoto/HondaCRF450|crf_PlateFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_RearSuspension { mesh = RZMoto/HondaCRF450|crf_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_Seat { mesh = RZMoto/HondaCRF450|crf_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_Steering { mesh = RZMoto/HondaCRF450|crf_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_WheelFront { mesh = RZMoto/HondaCRF450|crf_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaCRF450_0_RZ_CF_WheelRear { mesh = RZMoto/HondaCRF450|crf_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaCRF450, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Body { mesh = RZMoto/HondaMotra|mt_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_BrakeFront { mesh = RZMoto/HondaMotra|mt_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_BrakeRear { mesh = RZMoto/HondaMotra|mt_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_CargoFront { mesh = RZMoto/HondaMotra|mt_CargoFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_CargoRear { mesh = RZMoto/HondaMotra|mt_CargoRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_FenderFront { mesh = RZMoto/HondaMotra|mt_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_FenderRear { mesh = RZMoto/HondaMotra|mt_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Fork { mesh = RZMoto/HondaMotra|mt_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_GasTank { mesh = RZMoto/HondaMotra|mt_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Headlight { mesh = RZMoto/HondaMotra|mt_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Muffler { mesh = RZMoto/HondaMotra|mt_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_RearSuspension { mesh = RZMoto/HondaMotra|mt_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Seat { mesh = RZMoto/HondaMotra|mt_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_Steering { mesh = RZMoto/HondaMotra|mt_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_WheelFront { mesh = RZMoto/HondaMotra|mt_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaMotra_0_RZ_MT_WheelRear { mesh = RZMoto/HondaMotra|mt_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaMotra, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Body { mesh = RZMoto/HondaShadowRS|hs_Body,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_BrakeFront { mesh = RZMoto/HondaShadowRS|hs_BrakeFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_BrakeRear { mesh = RZMoto/HondaShadowRS|hs_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_DiscFront { mesh = RZMoto/HondaShadowRS|hs_DiscFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_DiscRear { mesh = RZMoto/HondaShadowRS|hs_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_FenderFront { mesh = RZMoto/HondaShadowRS|hs_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_FenderRear { mesh = RZMoto/HondaShadowRS|hs_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Fork { mesh = RZMoto/HondaShadowRS|hs_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_GasTank { mesh = RZMoto/HondaShadowRS|hs_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Headlight { mesh = RZMoto/HondaShadowRS|hs_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Muffler { mesh = RZMoto/HondaShadowRS|hs_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_RearSuspension { mesh = RZMoto/HondaShadowRS|hs_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Seat { mesh = RZMoto/HondaShadowRS|hs_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_Steering { mesh = RZMoto/HondaShadowRS|hs_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_WheelFront { mesh = RZMoto/HondaShadowRS|hs_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_HondaShadowRS_0_RZ_HS_WheelRear { mesh = RZMoto/HondaShadowRS|hs_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_HondaShadowRS, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_Body {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_body,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_BrakeFront {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_BrakeRear {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_DiscFront {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_disc_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_DiscRear {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_disc_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_FenderFront {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fender_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_FenderRear {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fender_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_FrontSuspension {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fork,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_GasTank {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_gastank,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_Handlebar {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_handlebar,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_Headlight {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_headlight,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_RearSuspension {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_shock,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_Seat {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_seat,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_SideBoxLeft {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_pannier_l,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_SideBoxRight {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_pannier_r,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_TopBox {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_topbox,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_WheelFront {
+        mesh = RZMoto/AKT_TT200_Matte_Wheels|akt_wheel_front,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_WheelRear {
+        mesh = RZMoto/AKT_TT200_Matte_Wheels|akt_wheel_rear,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_AKTTT200_Matte_0_RZ_AKT_Matte_Windshield {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_windshield,
+        
+        scale = 0.1,
+        
+     texture = Vehicles/RZMoto_AKTTT200_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Body {
+        mesh = RZMoto/StreetThree_Matte|street_Body,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_BrakeFront {
+        mesh = RZMoto/StreetThree_Matte|street_BrakeFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_BrakeRear {
+        mesh = RZMoto/StreetThree_Matte|street_BrakeRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_DiscFront {
+        mesh = RZMoto/StreetThree_Matte|street_DiscFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_DiscRear {
+        mesh = RZMoto/StreetThree_Matte|street_DiscRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_FenderFront {
+        mesh = RZMoto/StreetThree_Matte|street_FenderFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_FenderRear {
+        mesh = RZMoto/StreetThree_Matte|street_FenderRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Fork {
+        mesh = RZMoto/StreetThree_Matte|street_Fork,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_GasTank {
+        mesh = RZMoto/StreetThree_Matte|street_GasTank,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Headlight {
+        mesh = RZMoto/StreetThree_Matte|street_Headlight,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Muffler {
+        mesh = RZMoto/StreetThree_Matte|street_Muffler,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_RearSuspension {
+        mesh = RZMoto/StreetThree_Matte|street_RearSuspension,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Seat {
+        mesh = RZMoto/StreetThree_Matte|street_Seat,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_Steering {
+        mesh = RZMoto/StreetThree_Matte|street_Steering,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_WheelFront {
+        mesh = RZMoto/StreetThree_Matte|street_WheelFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_Matte_0_RZ_ST_Matte_WheelRear {
+        mesh = RZMoto/StreetThree_Matte|street_WheelRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree_Matte, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Body { mesh = RZMoto/OldWest|ow_Body,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_BrakeRear { mesh = RZMoto/OldWest|ow_BrakeRear,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_DiscFront { mesh = RZMoto/OldWest|ow_DiscFront,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_DiscRear { mesh = RZMoto/OldWest|ow_DiscRear,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_FenderFront { mesh = RZMoto/OldWest|ow_FenderFront,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_FenderRear { mesh = RZMoto/OldWest|ow_FenderRear,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Fork { mesh = RZMoto/OldWest|ow_Fork,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_GasTank { mesh = RZMoto/OldWest|ow_GasTank,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Headlight { mesh = RZMoto/OldWest|ow_Headlight,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Holster { mesh = RZMoto/OldWest|ow_Holster,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Muffler { mesh = RZMoto/OldWest|ow_Muffler,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_RearSuspension { mesh = RZMoto/OldWest|ow_RearSuspension,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Seat { mesh = RZMoto/OldWest|ow_Seat,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_Steering { mesh = RZMoto/OldWest|ow_Steering,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_WheelFront { mesh = RZMoto/OldWest|ow_WheelFront,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_OldWest_0_RZ_OW_WheelRear { mesh = RZMoto/OldWest|ow_WheelRear,   scale = 0.1,  texture = Vehicles/RZMoto_OldWest, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Body {
+        mesh = RZMoto/PostApo|post_Body,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_BrakeFront {
+        mesh = RZMoto/PostApo|post_BrakeFront,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_BrakeRear {
+        mesh = RZMoto/PostApo|post_BrakeRear,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Cargo {
+        mesh = RZMoto/PostApo|post_Cargo,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_DiscFront {
+        mesh = RZMoto/PostApo|post_DiscFront,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_DiscRear {
+        mesh = RZMoto/PostApo|post_DiscRear,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_FenderFront {
+        mesh = RZMoto/PostApo|post_FenderFront,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_FenderRear {
+        mesh = RZMoto/PostApo|post_FenderRear,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Fork {
+        mesh = RZMoto/PostApo|post_Fork,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_GasTank {
+        mesh = RZMoto/PostApo|post_GasTank,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Headlight {
+        mesh = RZMoto/PostApo|post_Headlight,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Muffler {
+        mesh = RZMoto/PostApo|post_Muffler,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_RearSuspension {
+        mesh = RZMoto/PostApo|post_RearSuspension,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Seat {
+        mesh = RZMoto/PostApo|post_Seat,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Skull {
+        mesh = RZMoto/PostApo|post_Skull,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_Steering {
+        mesh = RZMoto/PostApo|post_Steering,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_WheelFront {
+        mesh = RZMoto/PostApo|post_WheelFront,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_PostApo_0_RZ_PA_WheelRear {
+        mesh = RZMoto/PostApo|post_WheelRear,
+        
+        
+        scale = 0.130000,
+     texture = Vehicles/RZMoto_PostApo, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Body {
+        mesh = RZMoto/StreetThree|street_Body,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_BrakeFront {
+        mesh = RZMoto/StreetThree|street_BrakeFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_BrakeRear {
+        mesh = RZMoto/StreetThree|street_BrakeRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_DiscFront {
+        mesh = RZMoto/StreetThree|street_DiscFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_DiscRear {
+        mesh = RZMoto/StreetThree|street_DiscRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_FenderFront {
+        mesh = RZMoto/StreetThree|street_FenderFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_FenderRear {
+        mesh = RZMoto/StreetThree|street_FenderRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Fork {
+        mesh = RZMoto/StreetThree|street_Fork,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_GasTank {
+        mesh = RZMoto/StreetThree|street_GasTank,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Headlight {
+        mesh = RZMoto/StreetThree|street_Headlight,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Muffler {
+        mesh = RZMoto/StreetThree|street_Muffler,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_RearSuspension {
+        mesh = RZMoto/StreetThree|street_RearSuspension,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Seat {
+        mesh = RZMoto/StreetThree|street_Seat,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_Steering {
+        mesh = RZMoto/StreetThree|street_Steering,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_WheelFront {
+        mesh = RZMoto/StreetThree|street_WheelFront,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+ model RZ_TR_Cargo_RZMoto_StreetThree_0_RZ_ST_WheelRear {
+        mesh = RZMoto/StreetThree|street_WheelRear,
+        
+        
+        scale = 0.120000,
+     texture = Vehicles/RZMoto_StreetThree, shader = rzmoto_cargo, }
+}

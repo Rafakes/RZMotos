@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_hc_aim_default.xml">
+	<m_Name>rzmoto_hc_aim_spear</m_Name>
+	<m_Conditions x_name="7914fe47-2d34-431b-91c4-d1138f3f7704">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>spear</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="fe07d523-f68d-51d3-b83b-e2fd4162aba7">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>HC</m_Value>
+	</m_Conditions>
+</animNode>

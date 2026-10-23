@@ -1,0 +1,24 @@
+module Base
+{
+    model RZ_DS_Fork { mesh = RZMoto/DeliveryScooter|scooter_Fork, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_FenderRear { mesh = RZMoto/DeliveryScooter|scooter_FenderRear, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_FenderFront { mesh = RZMoto/DeliveryScooter|scooter_FenderFront, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_WheelRear { mesh = RZMoto/DeliveryScooter|scooter_WheelRear, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_WheelFront { mesh = RZMoto/DeliveryScooter|scooter_WheelFront, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_Steering { mesh = RZMoto/DeliveryScooter|scooter_Steering, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_Seat { mesh = RZMoto/DeliveryScooter|scooter_Seat, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_RearSuspension { mesh = RZMoto/DeliveryScooter|scooter_RearSuspension, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_Panel { mesh = RZMoto/DeliveryScooter|scooter_Panel, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_Headlight { mesh = RZMoto/DeliveryScooter|scooter_Headlight, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_CargoRear { mesh = RZMoto/DeliveryScooter|scooter_CargoRear, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_CargoFront { mesh = RZMoto/DeliveryScooter|scooter_CargoFront, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_Body { mesh = RZMoto/DeliveryScooter|scooter_Body, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_WI_Seat { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_Seat, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_WI_FenderFront { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_FenderFront, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_WI_FenderRear { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_FenderRear, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_WI_Tire { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_Tire, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_WI_CargoFront { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_CargoFront, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_WI_CargoRear { mesh = RZMoto/DeliveryScooter_Items|scooter_WI_CargoRear, texture = Vehicles/RZMoto_DeliveryScooter, scale = 0.1, }
+    model RZ_DS_BrakeFront { mesh = RZMoto/DeliveryScooter|scooter_BrakeFront, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_DS_BrakeRear { mesh = RZMoto/DeliveryScooter|scooter_BrakeRear, texture = Vehicles/RZMoto_DeliveryScooter, shader = vehicle_noreflect, scale = 0.1, }
+}

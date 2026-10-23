@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_mt_aim_default.xml">
+	<m_Name>rzmoto_mt_aim_handgun</m_Name>
+	<m_Conditions x_name="b11facfa-fd8a-4c5d-bc71-e4c1f2d6c912">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="0cf2d888-9ed8-5145-9690-c16e87d4e7c4">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>MT</m_Value>
+	</m_Conditions>
+</animNode>

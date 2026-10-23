@@ -1,0 +1,155 @@
+/* Premium Matte: original UV-compatible meshes, matte shaders and dedicated atlas. */
+module Base
+{
+    model RZ_AKT_Matte_Body
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_body,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_Seat
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_seat,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_GasTank
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_gastank,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_Windshield
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_windshield,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_Headlight
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_headlight,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_FrontSuspension
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fork,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_RearSuspension
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_shock,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_BrakeFront
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_front,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_BrakeRear
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_rear,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_FenderFront
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fender_front,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_FenderRear
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_fender_rear,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_TopBox
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_topbox,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_SideBoxLeft
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_pannier_l,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_SideBoxRight
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_pannier_r,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_WheelFront
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Wheels|akt_wheel_front,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_WheelRear
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Wheels|akt_wheel_rear,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+    model RZ_AKT_Matte_Handlebar
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_handlebar,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_DiscFront
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_disc_front,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+    model RZ_AKT_Matte_DiscRear
+    {
+        mesh = RZMoto/AKT_TT200_Matte_Body|akt_brake_disc_rear,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+        texture = Vehicles/RZMoto_AKTTT200_Matte,
+    }
+
+}

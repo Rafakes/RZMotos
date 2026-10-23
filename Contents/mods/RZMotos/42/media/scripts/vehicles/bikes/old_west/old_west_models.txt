@@ -1,0 +1,25 @@
+module Base
+{
+ model RZ_OW_WheelFront { mesh = RZMoto/OldWest|ow_WheelFront, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_DiscFront { mesh = RZMoto/OldWest|ow_DiscFront, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_WheelRear { mesh = RZMoto/OldWest|ow_WheelRear, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_DiscRear { mesh = RZMoto/OldWest|ow_DiscRear, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Fork { mesh = RZMoto/OldWest|ow_Fork, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Steering { mesh = RZMoto/OldWest|ow_Steering, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Headlight { mesh = RZMoto/OldWest|ow_Headlight, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_FenderFront { mesh = RZMoto/OldWest|ow_FenderFront, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_FenderRear { mesh = RZMoto/OldWest|ow_FenderRear, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Seat { mesh = RZMoto/OldWest|ow_Seat, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_GasTank { mesh = RZMoto/OldWest|ow_GasTank, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_RearSuspension { mesh = RZMoto/OldWest|ow_RearSuspension, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Muffler { mesh = RZMoto/OldWest|ow_Muffler, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_BrakeRear { mesh = RZMoto/OldWest|ow_BrakeRear, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Holster { mesh = RZMoto/OldWest|ow_Holster, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_Body { mesh = RZMoto/OldWest|ow_Body, texture = Vehicles/RZMoto_OldWest, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_OW_WI_Seat { mesh = RZMoto/OldWest_Items|ow_WI_Seat, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+ model RZ_OW_WI_GasTank { mesh = RZMoto/OldWest_Items|ow_WI_GasTank, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+ model RZ_OW_WI_FenderFront { mesh = RZMoto/OldWest_Items|ow_WI_FenderFront, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+ model RZ_OW_WI_FenderRear { mesh = RZMoto/OldWest_Items|ow_WI_FenderRear, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+ model RZ_OW_WI_Tire { mesh = RZMoto/OldWest_Items|ow_WI_Tire, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+ model RZ_OW_WI_Holster { mesh = RZMoto/OldWest_Items|ow_WI_Holster, texture = Vehicles/RZMoto_OldWest, scale = 0.1, }
+}

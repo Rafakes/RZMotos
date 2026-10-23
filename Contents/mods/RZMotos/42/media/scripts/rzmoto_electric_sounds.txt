@@ -1,0 +1,6 @@
+module Base
+{
+    sound RZ_DS_Engine { category = Vehicle, loop = true, clip { file = media/sound/RZ_DS_Engine.wav, distanceMin = 2, distanceMax = 25, volume = 0.35, } }
+    sound RZ_DS_Start { category = Vehicle, loop = false, clip { file = media/sound/RZ_DS_Start.wav, distanceMin = 2, distanceMax = 25, volume = 0.35, } }
+    sound RZ_DS_Off { category = Vehicle, loop = false, clip { file = media/sound/RZ_DS_Off.wav, distanceMin = 2, distanceMax = 25, volume = 0.35, } }
+}

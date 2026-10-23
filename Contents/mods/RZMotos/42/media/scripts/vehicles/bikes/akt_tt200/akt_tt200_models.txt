@@ -1,0 +1,201 @@
+/*
+ * AKT TT 200 DS - modelos (veiculo + itens de mundo)
+ * Malhas em media/models_X/RZMoto/AKT_TT200_*.fbx
+ */
+module Base
+{
+    /* ------------------------- corpo e pecas montadas ------------------------- */
+    model RZ_AKT_Body
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_body,
+        shader = vehicle_norandom_multiuv,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_Seat
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_seat,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_GasTank
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_gastank,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_Windshield
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_windshield,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_Headlight
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_headlight,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_FrontSuspension
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fork,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_RearSuspension
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_shock,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_BrakeFront
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_front,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_BrakeRear
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_rear,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_FenderFront
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_front,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_FenderRear
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_fender_rear,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    /* containers */
+    model RZ_AKT_TopBox
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_topbox,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_SideBoxLeft
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_l,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_SideBoxRight
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_pannier_r,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+
+    /* rodas (centradas no eixo; giram em X) */
+    model RZ_AKT_WheelFront
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_front,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_WheelRear
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Wheels|akt_wheel_rear,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+        model RZ_AKT_Handlebar
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_handlebar,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_DiscFront
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_front,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+    model RZ_AKT_DiscRear
+    {
+        mesh = RZMoto/AKT_TT200_Moving_Body|akt_brake_disc_rear,
+        shader = vehicle,
+        scale = 0.1,
+    }
+
+/* ------------------------- modelos de item no chao ------------------------- */
+    model RZ_AKT_WI_Tire
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_tire,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_GasTank
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_gastank,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_Seat
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_seat,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_Windshield
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_windshield,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_FenderFront
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_fender_front,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_FenderRear
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_fender_rear,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_TopBox
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_topbox,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+
+    model RZ_AKT_WI_SideBox
+    {
+        mesh = RZMoto/AKT_TT200_Items|akt_wi_pannier,
+        texture = Vehicles/RZMoto_AKTTT200_Shell,
+        scale = 0.6,
+    }
+}

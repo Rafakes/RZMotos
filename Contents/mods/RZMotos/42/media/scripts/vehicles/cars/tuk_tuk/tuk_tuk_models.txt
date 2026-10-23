@@ -1,0 +1,12 @@
+module Base
+{
+ model RZ_TK_Body { mesh = RZMoto/TukTuk|tt_Body, texture = Vehicles/RZMoto_TukTuk, shader = vehicle_noreflect, scale = 0.1, }
+ model RZ_TK_WheelFront { mesh = RZMoto/TukTuk|tt_WheelFront, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_WheelLeft { mesh = RZMoto/TukTuk|tt_WheelLeft, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_WheelRight { mesh = RZMoto/TukTuk|tt_WheelRight, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_SeatDriver { mesh = RZMoto/TukTuk|tt_SeatDriver, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_SeatRear { mesh = RZMoto/TukTuk|tt_SeatRear, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_Windshield { mesh = RZMoto/TukTuk|tt_Windshield, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_tuktuk_glass, scale = 0.1, }
+ model RZ_TK_Fork { mesh = RZMoto/TukTuk|tt_Fork, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+ model RZ_TK_Steering { mesh = RZMoto/TukTuk|tt_Steering, texture = Vehicles/RZMoto_TukTuk, shader = rzmoto_cargo, scale = 0.1, }
+}

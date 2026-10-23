@@ -1,0 +1,264 @@
+/*
+ * RZ Motos - CORE (motor principal)
+ *
+ * Templates compartilhados por TODAS as motos do mod. Uma moto nova so precisa de:
+ *   - o seu arquivo de veiculo (modelos, posicoes, itens)  -> scripts/vehicles/bikes/<moto>/
+ *   - um registro Lua                                       -> lua/shared/RZMoto/Bikes/<moto>.lua
+ * Nada aqui depende de outro mod.
+ */
+module Base
+{
+    /* modelo vazio usado nos pneus "reais" escondidos (pneus visiveis sao as pecas RZMotoTire*) */
+    model RZ_NullModel
+    {
+        mesh = RZMoto/RZ_Null|rz_null,
+        shader = vehicle,
+        scale = 1.0,
+    }
+
+    /* Portas ficam escondidas (moto nao tem porta) mas o jogo exige as pecas para entrar/sair */
+    template vehicle RZMotoDoors
+    {
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+
+        part Door*
+        {
+            category = nodisplay,
+
+            anim Open
+            {
+                sound =,
+            }
+
+            anim Close
+            {
+                sound =,
+            }
+
+            anim Lock
+            {
+                sound =,
+            }
+
+            anim Unlock
+            {
+                sound =,
+            }
+
+            anim IsLocked
+            {
+                sound =,
+            }
+
+            lua
+            {
+                create = RZMoto.Create.NoItem,
+                init = RZMoto.Init.NoItem,
+                use = RZMoto.Use.Door,
+            }
+        }
+    }
+
+    /*
+     * Quatro apoios fisicos invisiveis em dois eixos: FrontLeft/Right direcionam;
+     * RearLeft/Right recebem tracao. RZMotoVisual anima os dois pneus visiveis.
+     * Os pneus vanilla (Tire*) ficam escondidos e sao instalados/removidos junto com os visiveis
+     * por RZMoto.InstallComplete/UninstallComplete.
+     */
+    template vehicle RZMotoWheels
+    {
+        template = Tire,
+
+        part Tire*
+        {
+            category = nodisplay,
+
+            model InflatedTirePlusWheel
+            {
+                file = RZ_NullModel,
+            }
+
+            lua
+            {
+                create = RZMoto.Create.HiddenTire,
+                init = RZMoto.Init.Tires,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = RZMoto.Update.HiddenTire,
+            }
+        }
+
+        part RZMotoTireFront
+        {
+            area = TireFrontLeft,
+            wheel = FrontLeft,
+
+            table install
+            {
+                requireInstalled = SuspensionFrontLeft,
+                complete = RZMoto.InstallComplete.TireFront,
+            }
+
+            table uninstall
+            {
+                complete = RZMoto.UninstallComplete.TireFront,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Tire,
+                init = RZMoto.Init.Tires,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = RZMoto.Update.TireFront,
+            }
+        }
+
+        part RZMotoTireRear
+        {
+            area = TireRearLeft,
+            wheel = RearLeft,
+
+            table install
+            {
+                requireInstalled = SuspensionRearLeft,
+                complete = RZMoto.InstallComplete.TireRear,
+            }
+
+            table uninstall
+            {
+                complete = RZMoto.UninstallComplete.TireRear,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Tire,
+                init = RZMoto.Init.Tires,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = RZMoto.Update.TireRear,
+            }
+        }
+
+        part RZMotoTire*
+        {
+            category = tire,
+            specificItem = false,
+            itemType = Base.OldTire;Base.NormalTire;Base.ModernTire,
+            durability = 2,
+
+            container
+            {
+                capacity = 35,
+                test = Vehicles.ContainerAccess.Tire,
+                contentType = Air,
+            }
+
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Jack,
+                        count = 1,
+                        keep = true,
+                    }
+                    2
+                    {
+                        tags = base:lugwrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 400,
+                skills = Mechanics:1,
+                test = Vehicles.InstallTest.Default,
+            }
+
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Jack,
+                        count = 1,
+                        keep = true,
+                    }
+                    2
+                    {
+                        tags = base:lugwrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 400,
+                skills = Mechanics:1,
+                test = Vehicles.UninstallTest.Default,
+            }
+        }
+    }
+
+    /*
+     * Compartimentos de carga. As 3 pecas existem em toda moto do mod; cada moto define os
+     * modelos/itens. Capacidade vem do item (MaxCapacity). So abre com o jogador FORA da moto
+     * e dentro da area da peca.
+     */
+    template vehicle RZMotoStorage
+    {
+        part RZMotoBoxTop
+        {
+            area = TruckBed,
+        }
+
+        part RZMotoBoxLeft
+        {
+            area = TruckBedLeft,
+        }
+
+        part RZMotoBoxRight
+        {
+            area = TruckBedRight,
+        }
+
+        part RZMotoBox*
+        {
+            category = bodywork,
+            specificItem = false,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            durability = 3,
+
+            container
+            {
+                conditionAffectsCapacity = false,
+                test = RZMoto.ContainerAccess.Bag,
+            }
+
+            table install
+            {
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                requireEmpty = true,
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = RZMoto.Create.Bag,
+            }
+        }
+    }
+}

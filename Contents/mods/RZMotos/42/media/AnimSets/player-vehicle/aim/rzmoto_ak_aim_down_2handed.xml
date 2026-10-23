@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_ak_aim_down.xml">
+	<m_Name>rzmoto_ak_aim_down_2handed</m_Name>
+	<m_Conditions x_name="ca6de2db-4364-40f5-b0c0-4c87cb9bd918">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>2handed</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="dfd789ee-9cee-5798-a2eb-736cfdd99648">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>AK</m_Value>
+	</m_Conditions>
+</animNode>

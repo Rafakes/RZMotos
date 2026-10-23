@@ -1,0 +1,29 @@
+module Base
+{
+    model RZ_HP_Headlight { mesh = RZMoto/HarleyPolice|harley_Headlight, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_CargoTop { mesh = RZMoto/HarleyPolice|harley_CargoTop, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_RearSuspension { mesh = RZMoto/HarleyPolice|harley_RearSuspension, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_Body { mesh = RZMoto/HarleyPolice|harley_Body, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_Steering { mesh = RZMoto/HarleyPolice|harley_Steering, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_Fork { mesh = RZMoto/HarleyPolice|harley_Fork, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_BrakeFront { mesh = RZMoto/HarleyPolice|harley_BrakeFront, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_FenderRear { mesh = RZMoto/HarleyPolice|harley_FenderRear, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_CargoLeft { mesh = RZMoto/HarleyPolice|harley_CargoLeft, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_CargoRight { mesh = RZMoto/HarleyPolice|harley_CargoRight, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_GasTank { mesh = RZMoto/HarleyPolice|harley_GasTank, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_FenderFront { mesh = RZMoto/HarleyPolice|harley_FenderFront, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_WheelRear { mesh = RZMoto/HarleyPolice|harley_WheelRear, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_Windshield { mesh = RZMoto/HarleyPolice|harley_Windshield, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_DiscFront { mesh = RZMoto/HarleyPolice|harley_DiscFront, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_DiscRear { mesh = RZMoto/HarleyPolice|harley_DiscRear, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_WheelFront { mesh = RZMoto/HarleyPolice|harley_WheelFront, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_Seat { mesh = RZMoto/HarleyPolice|harley_Seat, texture = Vehicles/RZMoto_HarleyPolice, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_HP_WI_Seat { mesh = RZMoto/HarleyPolice_Items|harley_WI_Seat, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_GasTank { mesh = RZMoto/HarleyPolice_Items|harley_WI_GasTank, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_Windshield { mesh = RZMoto/HarleyPolice_Items|harley_WI_Windshield, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_FenderFront { mesh = RZMoto/HarleyPolice_Items|harley_WI_FenderFront, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_FenderRear { mesh = RZMoto/HarleyPolice_Items|harley_WI_FenderRear, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_Tire { mesh = RZMoto/HarleyPolice_Items|harley_WI_Tire, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_TopBox { mesh = RZMoto/HarleyPolice_Items|harley_WI_TopBox, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+    model RZ_HP_WI_SideBox { mesh = RZMoto/HarleyPolice_Items|harley_WI_SideBox, texture = Vehicles/RZMoto_HarleyPolice, scale = 0.1, }
+}

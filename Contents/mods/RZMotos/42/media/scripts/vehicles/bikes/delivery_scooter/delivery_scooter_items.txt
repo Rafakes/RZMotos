@@ -1,0 +1,116 @@
+module Base
+{
+    
+    
+
+    
+
+    
+    item RZ_DS_Seat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 4.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_Seat,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_Seat,
+    }
+
+    
+
+    
+
+    item RZ_DS_FenderFront
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_FenderFront,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_FenderFront,
+    }
+
+    item RZ_DS_FenderRear
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 3.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_FenderRear,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_FenderRear,
+    }
+
+    
+    item RZ_DS_TireOld
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 9.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_Tire,
+    }
+
+    item RZ_DS_TireNormal
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_Tire,
+    }
+
+    item RZ_DS_TireModern
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 11.0,
+        ItemType = base:normal,
+        Icon = RZ_DS_Tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = true,
+        WorldStaticModel = Base.RZ_DS_WI_Tire,
+    }
+
+
+    item RZ_DS_Battery {
+        DisplayCategory = VehicleMaintenance,
+        Weight = 8.0,
+        ItemType = base:drainable,
+        UseDelta = 0.00001,
+        UseWhileEquipped = false,
+        Icon = CarBattery,
+        cantBeConsolided = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        MechanicsItem = true,
+        WorldStaticModel = CarBattery,
+        Tags = base:carbattery,
+        KeepOnDeplete = true,
+    }
+    item RZ_DS_CargoFront { DisplayCategory = VehicleMaintenance, Weight = 3.0, ItemType = base:normal, Icon = RZ_DS_CargoFront, MaxCapacity = 15, ConditionAffectsCapacity = false, ConditionMax = 100, MechanicsItem = true, WorldStaticModel = Base.RZ_DS_WI_CargoFront, }
+    item RZ_DS_CargoRear { DisplayCategory = VehicleMaintenance, Weight = 3.0, ItemType = base:normal, Icon = RZ_DS_CargoRear, MaxCapacity = 25, ConditionAffectsCapacity = false, ConditionMax = 100, MechanicsItem = true, WorldStaticModel = Base.RZ_DS_WI_CargoRear, }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_cf_aim_down.xml">
+	<m_Name>rzmoto_cf_aim_down_spear</m_Name>
+	<m_Conditions x_name="050871f5-0a29-4481-a700-4a8bf12fc4e9">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>spear</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="da38ebc6-0cc5-5c3b-ae6f-3da70a22fb7a">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>CF</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,608 @@
+/* Delivery Electric Scooter / Neakster / CC BY 4.0; see CREDITS.md. */
+module Base
+{
+    vehicle RZMoto_DeliveryScooter
+    {
+        part RZMotoConfig
+        {
+            category = nodisplay,
+
+            table RZMotoConfig
+            {
+                profile = DS,
+                electric = 1,
+                crashSpeedDrop = 25,
+                motionDeadzone = 1,
+                hideHeldItems = 1,
+                mountWithInteract = 1,
+                riderDepth = 1,
+                bagChance = 100,
+            }
+        }
+
+        mechanicType = 3,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+
+        model
+        {
+            file = RZ_DS_Body,
+            scale = 0.8000,
+            
+            offset = 0.0000 -0.3750 0.0000,
+        }
+        textureShadow = Vehicles/RZMoto_DeliveryScooter_shadow,
+
+        skin { texture = Vehicles/RZMoto_DeliveryScooter, }
+
+        sound
+        {
+            horn = VehicleHorn,
+            engine = RZ_DS_Engine,
+            engineStart = RZ_DS_Start,
+            engineTurnOff = RZ_DS_Off,
+        }
+
+        engineForce = 1500,
+        maxSpeed = 50f,
+        maxSpeedReverse = 6f,
+        offRoadEfficiency = 0.8,
+        extents = 0.9000 1.0000 2.3000,
+        mass = 130,
+        physicsChassisShape = 0.9000 1.0000 2.3000,
+        centerOfMassOffset = 0.0000 0.2500 0.0000,
+        shadowExtents = 1.2 2.4,
+        shadowOffset = -0.000000000 -0.079991961,
+        engineLoudness = 8,
+        engineQuality = 100,
+        brakingForce = 10,
+        stoppingMovementForce = 1.0f,
+        
+        rollInfluence = 0.0f,
+        steeringIncrement = 0.01,
+        steeringClamp = 0.05,
+        suspensionStiffness = 40,
+        suspensionCompression = 0,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 20,
+        suspensionRestLength = 0.2f,
+        wheelFriction = 5.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 1,
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.2750 0.2875 1.0000,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.2750 0.2875 1.0000,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = -0.1500 0.2000 -0.6500,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = 0.1500 0.2000 -0.6500,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        area Engine
+        {
+            xywh = -0.7700 0.2200 0.4500 0.4500,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.7700 -0.2200 0.8000 0.8000,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.7700 -0.2200 0.8000 0.8000,
+        }
+
+        area GasTank
+        {
+            xywh = 0.7700 0.2200 0.4500 0.4500,
+        }
+
+        area TireRearLeft { xywh = 0.1000 -1.4300 0.4500 0.4500, }
+
+        area TireFrontLeft { xywh = 0.0000 1.4300 0.4500 0.4500, }
+
+        area TireRearRight { xywh = -0.1000 -1.4300 0.4500 0.4500, }
+
+        part GasTank
+        {
+            category = nodisplay,
+            container { capacity = 100, contentType = Electricity, conditionAffectsCapacity = false, test = RZMoto.ContainerAccess.None, }
+            lua { create = RZMotoElectric.createGauge, init = RZMotoElectric.syncGauge, }
+        }
+
+        template = Engine,
+
+        part Engine
+        {
+            category = engine,
+        }
+
+        template = Battery,
+
+        part Battery {
+            category = engine,
+            specificItem = false,
+            itemType = Base.RZ_DS_Battery,
+            lua { create = RZMotoElectric.createBattery, init = RZMotoElectric.syncGauge, update = RZMotoElectric.updateBattery, checkEngine = RZMotoElectric.checkEngine, }
+            area = GasTank,
+
+            table install
+            {
+                recipes = Basic Mechanics,
+                complete = RZMotoElectric.changedBattery,
+            }
+
+            table uninstall
+            {
+                recipes = Basic Mechanics,
+                complete = RZMotoElectric.changedBattery,
+            }
+        }
+
+        template = Seat/part/SeatFrontLeft,
+
+        part SeatFrontLeft
+        {
+            category = seat,
+            specificItem = false,
+            itemType = Base.RZ_DS_Seat,
+
+            model RZ_DS_Seat_Model
+            {
+                file = RZ_DS_Seat,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            container
+            {
+                test = RZMoto.ContainerAccess.None,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part FenderFront
+        {
+            category = bodywork,
+            mechanicRequireKey = true,
+            specificItem = false,
+            itemType = Base.RZ_DS_FenderFront,
+            area = TireFrontLeft,
+
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        part FenderRear
+        {
+            category = bodywork,
+            mechanicRequireKey = true,
+            specificItem = false,
+            itemType = Base.RZ_DS_FenderRear,
+            area = TireRearLeft,
+
+            model RZ_DS_FenderRear_Model
+            {
+                file = RZ_DS_FenderRear,
+            }
+
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        tags = base:screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        template = Brake/part/BrakeFrontLeft,
+        template = Brake/part/BrakeRearLeft,
+
+        part BrakeFrontLeft
+        {
+            area = TireFrontLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionFrontLeft,
+                requireUninstalled = RZMotoTireFront,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireFront,
+            }
+        }
+
+        part BrakeRearLeft {
+            area = TireRearLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionRearLeft,
+                requireUninstalled = RZMotoTireRear,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireRear,
+            }
+                    model BrakeRear { file = RZ_DS_BrakeRear, }
+        }
+
+        template = Headlight/part/HeadlightLeft,
+
+        part HeadlightLeft {
+            area = TireFrontLeft,
+
+         model Headlight { file = RZ_DS_Headlight, } 
+            table headlight { xOffset = 0.0, yOffset = 0.659757522, distance = 36, intensity = 0.75, }
+            lua { init = RZMoto.Init.ScooterLight, }
+        }
+
+        template = Headlight/part/HeadlightRearLeft,
+
+        part HeadlightRearLeft
+        {
+            area = TireRearLeft,
+        
+            table headlight { xOffset = 0.0, yOffset = 0.731476643, distance = 3, intensity = 0.2, }
+            lua { init = RZMoto.Init.ScooterLight, }
+        }
+
+        template = Suspension,
+
+        part SuspensionFrontLeft
+        {
+            area = TireFrontLeft,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireFront,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = BrakeFrontLeft,
+            }
+        }
+
+        part SuspensionFrontRight
+        {
+            category = nodisplay,
+        }
+
+        part SuspensionRearLeft
+        {
+            area = TireRearLeft,
+
+            model RZ_DS_RearSuspension_Model
+            {
+                file = RZ_DS_RearSuspension,
+                offset = 0.000000000 0.000000000 0.000000000,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = RZMotoTireRear,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+                requireUninstalled = BrakeRearLeft,
+            }
+        }
+
+        part SuspensionRearRight
+        {
+            category = nodisplay,
+            area = TireRearLeft,
+        }
+
+        template! = RZMotoWheels,
+
+        part RZMotoTireFront
+        {
+            specificItem = false,
+            itemType = Base.RZ_DS_TireOld;Base.RZ_DS_TireNormal;Base.RZ_DS_TireModern,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionFrontLeft,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part RZMotoTireRear
+        {
+            specificItem = false,
+            itemType = Base.RZ_DS_TireOld;Base.RZ_DS_TireNormal;Base.RZ_DS_TireModern,
+
+            table install
+            {
+                recipes = Advanced Mechanics,
+                requireInstalled = SuspensionRearLeft,
+            }
+
+            table uninstall
+            {
+                recipes = Advanced Mechanics,
+            }
+        }
+
+        part RZMotoVisual { category = nodisplay,
+            model Steering { file = RZ_DS_Steering, offset = 0.000000000 0.967651308 0.452760071, scale = 1.0, }
+            model WheelFront { file = RZ_DS_WheelFront, offset = 0.000000000 0.245611414 0.763224006, scale = 1.0, }
+            model Fork { file = RZ_DS_Fork, offset = 0.000000000 0.967651308 0.452760071, scale = 1.0, }
+            model FenderFront { file = RZ_DS_FenderFront, offset = 0.000000000 0.967651308 0.452760071, scale = 1.0, }
+            model WheelRear { file = RZ_DS_WheelRear, offset = 0.000000000 0.253795505 -0.762035966, scale = 1.0, }
+            model BrakeFront { file = RZ_DS_BrakeFront, offset = 0.000000000 0.967651308 0.452760071, scale = 1.0, }
+            model Panel { file = RZ_DS_Panel, offset = 0.000000000 0.000000000 0.000000000, scale = 1.0, }
+        }
+
+        area ScooterCargoFront { xywh = 0.0 1.6500 1.2 0.8, }
+        part RZMotoScooterCargoFront {
+            area = ScooterCargoFront,
+            itemType = Base.RZ_DS_CargoFront,
+            model CargoFront { file = RZ_DS_CargoFront, }
+
+            category = bodywork,
+            specificItem = false,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            durability = 3,
+
+            container
+            {
+                conditionAffectsCapacity = false,
+                test = RZMoto.ContainerAccess.Bag,
+            }
+
+            table install
+            {
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                requireEmpty = true,
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = RZMoto.Create.Bag,
+            }
+        
+        }
+        area ScooterCargoRear { xywh = 0.0 -1.3000 1.2 0.8, }
+        part RZMotoScooterCargoRear {
+            area = ScooterCargoRear,
+            itemType = Base.RZ_DS_CargoRear,
+            model CargoRear { file = RZ_DS_CargoRear, }
+
+            category = bodywork,
+            specificItem = false,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            durability = 3,
+
+            container
+            {
+                conditionAffectsCapacity = false,
+                test = RZMoto.ContainerAccess.Bag,
+            }
+
+            table install
+            {
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+            }
+
+            table uninstall
+            {
+                requireEmpty = true,
+                time = 500,
+                skills = Mechanics:1,
+                recipes = Basic Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Default,
+            }
+
+            lua
+            {
+                create = RZMoto.Create.Bag,
+            }
+        
+        }
+        passenger FrontLeft
+        {
+            door = DoorFrontLeft,
+            door2 = DoorFrontRight,
+            area = SeatFrontLeft,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside {
+                offset = 0.000000000 0.900000000 -0.270000000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside {
+                offset = -0.50 0.025 -0.270000000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            anim enter
+            {
+                anim = Climb_WindowA,
+                rate = 0.33,
+            }
+
+            anim idle
+            {
+                anim = Idle,
+                rate = 1.0,
+            }
+
+            anim exit
+            {
+                anim = Climb_WindowB,
+                rate = 0.23,
+            }
+
+            anim openDoor
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.3,
+            }
+
+            anim closeDoor
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+            }
+        }
+
+        template = RZMotoDoors,
+
+        template = Radio,
+    }
+}

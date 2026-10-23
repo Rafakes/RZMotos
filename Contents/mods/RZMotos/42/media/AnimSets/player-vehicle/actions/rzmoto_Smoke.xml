@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_Eat.xml">
+	<m_Name>RZMoto_Smoke</m_Name>
+	<m_AnimName>Bob_IdleSmoke</m_AnimName>
+	<m_Conditions x_name="07582893-b50a-4d12-b15f-43b43c1ad759">
+		<m_Name>FoodType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>cigarettes</m_Value>
+	</m_Conditions>
+</animNode>

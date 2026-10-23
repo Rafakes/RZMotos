@@ -1,0 +1,69 @@
+module Base
+{
+ vehicle RZMoto_Trailer
+ {
+  neverSpawnKey = true,
+  mechanicType = 1,
+  engineRepairLevel = 4,
+  offRoadEfficiency = 0.8,
+  model { file = RZ_TR_Body, scale = 0.8, offset = 0 -0.375 0, }
+  skin { texture = Vehicles/RZMoto_Trailer, }
+  extents = 2.64 0.70 3.65,
+  physicsChassisShape = 2.64 0.40 3.55,
+  centerOfMassOffset = 0 0.25 -0.15,
+  mass = 250,
+  shadowExtents = 2.64 3.65,
+  shadowOffset = 0 -0.10,
+  engineForce = 1000,
+  engineQuality = 60,
+  engineLoudness = 0,
+  maxSpeed = 70,
+  brakingForce = 1,
+  stoppingMovementForce = 2,
+  rollInfluence = 0.05,
+  steeringIncrement = 0.03,
+  steeringClamp = 0.3,
+  suspensionStiffness = 55,
+  suspensionCompression = 2.83,
+  suspensionDamping = 2.88,
+  maxSuspensionTravelCm = 10,
+  suspensionRestLength = 0.15,
+  wheelFriction = 4,
+  frontEndHealth = 200,
+  rearEndHealth = 200,
+  seats = 0,
+  attachment trailer { offset = 0 0.38 3.27, rotate = 0 0 0, canAttach = trailer, updateconstraint = false, }
+  area TireFrontLeft { xywh = 1.6 -0.215 0.6 0.7, }
+  area TireFrontRight { xywh = -1.6 -0.215 0.6 0.7, }
+  template = Tire/part/TireFrontLeft,
+  template = Tire/part/TireFrontRight,
+  template = Suspension/part/SuspensionFrontLeft,
+  template = Suspension/part/SuspensionFrontRight,
+  part RZMotoCargo { category = nodisplay, lua { init = RZMotoTrailer.InitMass, } }
+  part RZMotoCargoVisual { category = nodisplay, }
+  part RZMotoVault1
+  {
+   category = nodisplay,
+   container { capacity = 10000, conditionAffectsCapacity = false, test = RZMotoTrailer.ContainerAccess, }
+   lua { create = RZMotoTrailer.CreateVault, }
+  }
+  part RZMotoVault2
+  {
+   category = nodisplay,
+   container { capacity = 10000, conditionAffectsCapacity = false, test = RZMotoTrailer.ContainerAccess, }
+   lua { create = RZMotoTrailer.CreateVault, }
+  }
+  wheel FrontLeft { front = true, offset = 1.153471112 0.456312895 -0.215416864, radius = 0.456312895, width = 0.23, }
+  part TireFrontLeft
+  {
+   table install { requireInstalled = SuspensionFrontLeft, }
+   model InflatedTirePlusWheel { file = RZ_TR_WheelRight, offset = 0 0 0, scale = 1, }
+  }
+  wheel FrontRight { front = true, offset = -1.151075125 0.456312895 -0.215416864, radius = 0.456312895, width = 0.23, }
+  part TireFrontRight
+  {
+   table install { requireInstalled = SuspensionFrontRight, }
+   model InflatedTirePlusWheel { file = RZ_TR_WheelLeft, offset = 0 0 0, scale = 1, }
+  }
+ }
+}

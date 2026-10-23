@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_hp_aim_down.xml">
+	<m_Name>rzmoto_hp_aim_down_handgun</m_Name>
+	<m_Conditions x_name="b72b8640-f696-4cfa-9466-3dc8d876b5cd">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="767fbaf5-68c8-5295-8a9a-fe1b9ad0591f">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>HP</m_Value>
+	</m_Conditions>
+</animNode>

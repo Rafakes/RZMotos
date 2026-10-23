@@ -1,0 +1,26 @@
+module Base
+{
+    model RZ_CW_Body { mesh = RZMoto/CWSM111|cw_Body, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Sidecar { mesh = RZMoto/CWSM111|cw_Sidecar, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_GasTank { mesh = RZMoto/CWSM111|cw_GasTank, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Seat { mesh = RZMoto/CWSM111|cw_Seat, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Steering { mesh = RZMoto/CWSM111|cw_Steering, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_WheelFront { mesh = RZMoto/CWSM111|cw_WheelFront, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_WheelRear { mesh = RZMoto/CWSM111|cw_WheelRear, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_WheelSidecar { mesh = RZMoto/CWSM111|cw_WheelSidecar, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_SpareWheel { mesh = RZMoto/CWSM111|cw_SpareWheel, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Fork { mesh = RZMoto/CWSM111|cw_Fork, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_BrakeFront { mesh = RZMoto/CWSM111|cw_BrakeFront, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_BrakeRear { mesh = RZMoto/CWSM111|cw_BrakeRear, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Headlight { mesh = RZMoto/CWSM111|cw_Headlight, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_RearSuspension { mesh = RZMoto/CWSM111|cw_RearSuspension, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_Muffler { mesh = RZMoto/CWSM111|cw_Muffler, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_FenderFront { mesh = RZMoto/CWSM111|cw_FenderFront, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_FenderRear { mesh = RZMoto/CWSM111|cw_FenderRear, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_SidecarFender { mesh = RZMoto/CWSM111|cw_SidecarFender, texture = Vehicles/RZMoto_CWSM111, shader = vehicle_noreflect, scale = 0.1, }
+    model RZ_CW_WI_Seat { mesh = RZMoto/CWSM111_Items|cw_WI_Seat, texture = Vehicles/RZMoto_CWSM111, scale = 0.1, }
+    model RZ_CW_WI_GasTank { mesh = RZMoto/CWSM111_Items|cw_WI_GasTank, texture = Vehicles/RZMoto_CWSM111, scale = 0.1, }
+    model RZ_CW_WI_FenderFront { mesh = RZMoto/CWSM111_Items|cw_WI_FenderFront, texture = Vehicles/RZMoto_CWSM111, scale = 0.1, }
+    model RZ_CW_WI_FenderRear { mesh = RZMoto/CWSM111_Items|cw_WI_FenderRear, texture = Vehicles/RZMoto_CWSM111, scale = 0.1, }
+    model RZ_CW_WI_Tire { mesh = RZMoto/CWSM111_Items|cw_WI_Tire, texture = Vehicles/RZMoto_CWSM111, scale = 0.1, }
+}

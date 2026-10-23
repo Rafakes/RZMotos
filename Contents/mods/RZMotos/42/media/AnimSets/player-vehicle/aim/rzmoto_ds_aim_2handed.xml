@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="rzmoto_ds_aim_default.xml">
+	<m_Name>rzmoto_ds_aim_2handed</m_Name>
+	<m_Conditions x_name="f96393fb-d54f-4d01-b15a-e1be4e09a443">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>2handed</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="f3e9cca2-284e-55f3-b13a-8e59f350751a">
+		<m_Name>RZMotoProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>DS</m_Value>
+	</m_Conditions>
+</animNode>

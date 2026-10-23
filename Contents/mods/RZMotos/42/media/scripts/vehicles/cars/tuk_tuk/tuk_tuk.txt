@@ -1,0 +1,156 @@
+/* User supplied TukTuk by Nirmal.Justin, CC BY 4.0. See CREDITS.md. */
+module Base
+{
+ vehicle RZMoto_TukTuk
+ {
+  mechanicType = 1,
+  engineRepairLevel = 3,
+  playerDamageProtection = 0.6,
+  model { file = RZ_TK_Body, scale = 0.8, offset = 0 -0.375 0, }
+  /* vehicle_noreflect reads every auxiliary sampler. B42 skips binding null
+     textures, retaining the previous draw's maps. Bind explicit neutral maps. */
+  skin {
+   texture = Vehicles/RZMoto_TukTuk,
+   textureMask = Vehicles/RZMoto_TukTuk_NeutralMask,
+   textureRust = Vehicles/RZMoto_TukTuk_Clear,
+   textureLights = Vehicles/RZMoto_TukTuk_Clear,
+   textureDamage1Overlay = Vehicles/RZMoto_TukTuk_Clear,
+   textureDamage1Shell = Vehicles/RZMoto_TukTuk_Clear,
+   textureDamage2Overlay = Vehicles/RZMoto_TukTuk_Clear,
+   textureDamage2Shell = Vehicles/RZMoto_TukTuk_Clear,
+  }
+  sound {
+   engine = VehicleEngineCarNormal,
+   engineStart = VehicleEngineCarNormal,
+   engineTurnOff = VehicleEngineCarNormal,
+   ignitionFail = VehicleIgnitionFailCarNormal,
+   horn = VehicleHornStandard,
+  }
+  extents = 1.65 1.65 2.95,
+  physicsChassisShape = 1.35 0.85 2.5,
+  centerOfMassOffset = 0 0.15 -0.10,
+  shadowExtents = 1.75 3.05,
+  shadowOffset = 0 0,
+  mass = 380,
+  engineForce = 1600,
+  engineQuality = 70,
+  engineLoudness = 65,
+  maxSpeed = 60,
+  maxSpeedReverse = 8,
+  brakingForce = 25,
+  stoppingMovementForce = 2,
+  offRoadEfficiency = 0.65,
+  gearRatioCount = 4,
+  gearRatioR = 4.7,
+  gearRatio1 = 3.6,
+  gearRatio2 = 2.2,
+  gearRatio3 = 1.3,
+  gearRatio4 = 1,
+  rollInfluence = 0.05,
+  steeringIncrement = 0.025,
+  steeringClamp = 0.3,
+  suspensionStiffness = 40,
+  suspensionCompression = 2.83,
+  suspensionDamping = 2.88,
+  maxSuspensionTravelCm = 10,
+  suspensionRestLength = 0.15,
+  wheelFriction = 2.5,
+  frontEndHealth = 160,
+  rearEndHealth = 160,
+  seats = 3,
+  area Engine { xywh = 0 -1.85 1.25 0.6, }
+  area TruckBed { xywh = 0 -1.85 1.25 0.6, }
+  area GasTank { xywh = -1.1 -0.6 0.6 0.7, }
+  area TireFrontLeft { xywh = 0 1.65 0.8 0.6, }
+  area TireFrontRight { xywh = 0 1.65 0.8 0.6, }
+  area TireRearLeft { xywh = 1.1 -0.95 0.6 0.7, }
+  area TireRearRight { xywh = -1.1 -0.95 0.6 0.7, }
+  template = GasTank,
+  template = Engine,
+  template = Battery,
+  template = Muffler,
+  template = Radio,
+  template = Brake,
+  template = Suspension,
+  template = Tire,
+  template = Trunk/part/TruckBedOpen,
+  part TruckBedOpen { container { capacity = 25, } }
+  template = Headlight/part/HeadlightLeft,
+  template = Headlight/part/HeadlightRearLeft,
+  template = Headlight/part/HeadlightRearRight,
+  part HeadlightLeft { table headlight { xOffset = 0, yOffset = 1.4, distance = 25, intensity = 0.7, } }
+  template = Windshield/part/Windshield,
+  part Windshield { model Default { file = RZ_TK_Windshield, offset = 0 0 0, } }
+  area SeatFrontLeft { xywh = 1.12 0.27 0.65 0.65, }
+  template = Seat/part/SeatFrontLeft,
+  template = Door/part/DoorFrontLeft,
+  part DoorFrontLeft { category = nodisplay, lua { create = RZMoto.Create.NoItem, init = RZMoto.Init.NoItem, use = RZMoto.Use.Door, } }
+  passenger FrontLeft {
+   door = DoorFrontLeft,
+   area = SeatFrontLeft,
+   hasRoof = true,
+   showPassenger = true,
+   position inside { offset = 0.0 1.10 0.15, rotate = 0 0 0, }
+   position outside { offset = 1.4000000000000001 0 0.15, rotate = 0 0 0, area = SeatFrontLeft, }
+   anim enter { anim = Climb_WindowA, rate = 0.8, }
+   anim idle { anim = Idle, rate = 1, }
+   anim exit { anim = Climb_WindowB, rate = 0.8, }
+  }
+  part SeatFrontLeft { model Default { file = RZ_TK_SeatDriver, offset = 0 0 0, } }
+  area SeatRearLeft { xywh = 1.12 -0.75 0.65 0.65, }
+  template = Seat/part/SeatRearLeft,
+  template = Door/part/DoorRearLeft,
+  part DoorRearLeft { category = nodisplay, lua { create = RZMoto.Create.NoItem, init = RZMoto.Init.NoItem, use = RZMoto.Use.Door, } }
+  passenger RearLeft {
+   door = DoorRearLeft,
+   area = SeatRearLeft,
+   hasRoof = true,
+   showPassenger = true,
+   position inside { offset = 0.39999999999999997 1.10 -1.125, rotate = 0 0 0, }
+   position outside { offset = 1.4000000000000001 0 -1.125, rotate = 0 0 0, area = SeatRearLeft, }
+   anim enter { anim = Climb_WindowA, rate = 0.8, }
+   anim idle { anim = Idle, rate = 1, }
+   anim exit { anim = Climb_WindowB, rate = 0.8, }
+  }
+  part SeatRearLeft { model Default { file = RZ_TK_SeatRear, offset = 0 0 0, } }
+  area SeatRearRight { xywh = -1.12 -0.75 0.65 0.65, }
+  template = Seat/part/SeatRearRight,
+  template = Door/part/DoorRearRight,
+  part DoorRearRight { category = nodisplay, lua { create = RZMoto.Create.NoItem, init = RZMoto.Init.NoItem, use = RZMoto.Use.Door, } }
+  passenger RearRight {
+   door = DoorRearRight,
+   area = SeatRearRight,
+   hasRoof = true,
+   showPassenger = true,
+   position inside { offset = -0.39999999999999997 1.10 -1.125, rotate = 0 0 0, }
+   position outside { offset = -1.4000000000000001 0 -1.125, rotate = 0 0 0, area = SeatRearRight, }
+   anim enter { anim = Climb_WindowA, rate = 0.8, }
+   anim idle { anim = Idle, rate = 1, }
+   anim exit { anim = Climb_WindowB, rate = 0.8, }
+  }
+  wheel FrontLeft { front = true, offset = -0.00183424 0.34052265 1.49946809, radius = 0.34052264, width = 0.18, }
+  part TireFrontLeft { model InflatedTirePlusWheel { file = RZ_TK_WheelFront, offset = 0 0 0, scale = 1, } }
+  wheel FrontRight { front = true, offset = -0.00183424 0.34052265 1.49946809, radius = 0.34052264, width = 0.18, }
+  part TireFrontRight { model InflatedTirePlusWheel { file = RZ_NullModel, offset = 0 0 0, scale = 1, } }
+  wheel RearLeft { front = false, offset = 0.88930076 0.34052265 -1.22692955, radius = 0.34052264, width = 0.18, }
+  part TireRearLeft { model InflatedTirePlusWheel { file = RZ_TK_WheelLeft, offset = 0 0 0, scale = 1, } }
+  wheel RearRight { front = false, offset = -0.89202785 0.34052265 -1.22692955, radius = 0.34052264, width = 0.18, }
+  part TireRearRight { model InflatedTirePlusWheel { file = RZ_TK_WheelRight, offset = 0 0 0, scale = 1, } }
+  part RZMotoVisual { category = nodisplay,
+   model Fork { file = RZ_TK_Fork, offset = 0.00183424 0.34052265 1.49946809, scale = 1, }
+   model Steering { file = RZ_TK_Steering, offset = 0.00000000 1.34924853 0.99041432, scale = 1, }
+  }
+  part TireFrontLeft {
+   lua { init = RZTukTuk.InitFront, update = RZTukTuk.UpdateFront, }
+   table install { complete = RZTukTuk.InstallFront, }
+   table uninstall { complete = RZTukTuk.UninstallFront, }
+  }
+  part TireFrontRight {
+   category = nodisplay,
+   lua { create = RZTukTuk.CreateSupport, init = RZTukTuk.InitSupport, update = RZTukTuk.UpdateSupport, }
+   container { test = RZMoto.ContainerAccess.None, }
+  }
+  part BrakeFrontRight { category = nodisplay, }
+  part SuspensionFrontRight { category = nodisplay, }
+ }
+}
