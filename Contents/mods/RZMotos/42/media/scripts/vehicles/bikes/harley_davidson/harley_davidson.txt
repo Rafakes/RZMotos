@@ -15,6 +15,7 @@ module Base
                 hideHeldItems = 1,
                 mountWithInteract = 1,
                 riderDepth = 1,
+                riderZCorrection = 0.15,
                 bagChance = 0,
             }
         }

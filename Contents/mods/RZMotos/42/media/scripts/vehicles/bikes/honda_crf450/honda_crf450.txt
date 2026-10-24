@@ -26,7 +26,7 @@ module Base
         model
         {
             file = RZ_CF_Body,
-            scale = 0.8000,
+            scale = 0.7200,
             
             offset = 0.0000 -0.3750 0.0000,
         }

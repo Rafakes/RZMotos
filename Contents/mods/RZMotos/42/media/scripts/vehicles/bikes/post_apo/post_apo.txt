@@ -14,7 +14,7 @@ module Base
                 motionDeadzone = 1,
                 hideHeldItems = 1,
                 mountWithInteract = 1,
-                riderDepth = 0,
+                riderDepth = 1,
                 bagChance = 100,
             }
         }
